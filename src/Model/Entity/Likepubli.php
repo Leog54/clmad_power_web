@@ -6,13 +6,12 @@ namespace App\Model\Entity;
 use Cake\ORM\Entity;
 
 /**
- * Recevoir Entity
+ * Likepubli Entity
  *
- * @property int $id_message
- * @property int $id_conver
- * @property \Cake\I18n\FrozenTime|null $date_reception
+ * @property int $id_user
+ * @property int $id_publi
  */
-class Recevoir extends Entity
+class Likepubli extends Entity
 {
     /**
      * Fields that can be mass assigned using newEntity() or patchEntity().
@@ -24,6 +23,8 @@ class Recevoir extends Entity
      * @var array
      */
     protected $_accessible = [
-        'date_reception' => true,
+        '*' => true,
+        'id_user' => false,
+        'id_publi' => false,
     ];
 }

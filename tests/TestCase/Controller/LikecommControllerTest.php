@@ -3,16 +3,16 @@ declare(strict_types=1);
 
 namespace App\Test\TestCase\Controller;
 
-use App\Controller\LikesController;
+use App\Controller\LikecommController;
 use Cake\TestSuite\IntegrationTestTrait;
 use Cake\TestSuite\TestCase;
 
 /**
- * App\Controller\LikesController Test Case
+ * App\Controller\LikecommController Test Case
  *
- * @uses \App\Controller\LikesController
+ * @uses \App\Controller\LikecommController
  */
-class LikesControllerTest extends TestCase
+class LikecommControllerTest extends TestCase
 {
     use IntegrationTestTrait;
 
@@ -22,14 +22,14 @@ class LikesControllerTest extends TestCase
      * @var array
      */
     protected $fixtures = [
-        'app.Likes',
+        'app.Likecomm',
     ];
 
     /**
      * Test index method
      *
      * @return void
-     * @uses \App\Controller\LikesController::index()
+     * @uses \App\Controller\LikecommController::index()
      */
     public function testIndex(): void
     {
@@ -40,7 +40,7 @@ class LikesControllerTest extends TestCase
      * Test view method
      *
      * @return void
-     * @uses \App\Controller\LikesController::view()
+     * @uses \App\Controller\LikecommController::view()
      */
     public function testView(): void
     {
@@ -51,7 +51,7 @@ class LikesControllerTest extends TestCase
      * Test add method
      *
      * @return void
-     * @uses \App\Controller\LikesController::add()
+     * @uses \App\Controller\LikecommController::add()
      */
     public function testAdd(): void
     {
@@ -62,7 +62,7 @@ class LikesControllerTest extends TestCase
      * Test edit method
      *
      * @return void
-     * @uses \App\Controller\LikesController::edit()
+     * @uses \App\Controller\LikecommController::edit()
      */
     public function testEdit(): void
     {
@@ -73,7 +73,7 @@ class LikesControllerTest extends TestCase
      * Test delete method
      *
      * @return void
-     * @uses \App\Controller\LikesController::delete()
+     * @uses \App\Controller\LikecommController::delete()
      */
     public function testDelete(): void
     {

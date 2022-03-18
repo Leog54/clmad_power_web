@@ -102,8 +102,7 @@ class UsersTable extends Table
             ->notEmptyString('num_tel_user');
 
         $validator
-            ->scalar('email')
-            ->maxLength('email', 200)
+            ->email('email')
             ->requirePresence('email', 'create')
             ->notEmptyString('email');
 
@@ -114,7 +113,7 @@ class UsersTable extends Table
             ->notEmptyString('password');
 
         $validator
-            ->dateTime('date_naissance_user')
+            ->date('date_naissance_user')
             ->requirePresence('date_naissance_user', 'create')
             ->notEmptyDate('date_naissance_user');
 
@@ -132,5 +131,19 @@ class UsersTable extends Table
             ->allowEmptyString('id_role_user');
 
         return $validator;
+    }
+
+    /**
+     * Returns a rules checker object that will be used for validating
+     * application integrity.
+     *
+     * @param \Cake\ORM\RulesChecker $rules The rules object to be modified.
+     * @return \Cake\ORM\RulesChecker
+     */
+    public function buildRules(RulesChecker $rules): RulesChecker
+    {
+        $rules->add($rules->isUnique(['email']), ['errorField' => 'email']);
+
+        return $rules;
     }
 }

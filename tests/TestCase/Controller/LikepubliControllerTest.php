@@ -3,16 +3,16 @@ declare(strict_types=1);
 
 namespace App\Test\TestCase\Controller;
 
-use App\Controller\RecevoirController;
+use App\Controller\LikepubliController;
 use Cake\TestSuite\IntegrationTestTrait;
 use Cake\TestSuite\TestCase;
 
 /**
- * App\Controller\RecevoirController Test Case
+ * App\Controller\LikepubliController Test Case
  *
- * @uses \App\Controller\RecevoirController
+ * @uses \App\Controller\LikepubliController
  */
-class RecevoirControllerTest extends TestCase
+class LikepubliControllerTest extends TestCase
 {
     use IntegrationTestTrait;
 
@@ -22,14 +22,14 @@ class RecevoirControllerTest extends TestCase
      * @var array
      */
     protected $fixtures = [
-        'app.Recevoir',
+        'app.Likepubli',
     ];
 
     /**
      * Test index method
      *
      * @return void
-     * @uses \App\Controller\RecevoirController::index()
+     * @uses \App\Controller\LikepubliController::index()
      */
     public function testIndex(): void
     {
@@ -40,7 +40,7 @@ class RecevoirControllerTest extends TestCase
      * Test view method
      *
      * @return void
-     * @uses \App\Controller\RecevoirController::view()
+     * @uses \App\Controller\LikepubliController::view()
      */
     public function testView(): void
     {
@@ -51,7 +51,7 @@ class RecevoirControllerTest extends TestCase
      * Test add method
      *
      * @return void
-     * @uses \App\Controller\RecevoirController::add()
+     * @uses \App\Controller\LikepubliController::add()
      */
     public function testAdd(): void
     {
@@ -62,7 +62,7 @@ class RecevoirControllerTest extends TestCase
      * Test edit method
      *
      * @return void
-     * @uses \App\Controller\RecevoirController::edit()
+     * @uses \App\Controller\LikepubliController::edit()
      */
     public function testEdit(): void
     {
@@ -73,7 +73,7 @@ class RecevoirControllerTest extends TestCase
      * Test delete method
      *
      * @return void
-     * @uses \App\Controller\RecevoirController::delete()
+     * @uses \App\Controller\LikepubliController::delete()
      */
     public function testDelete(): void
     {

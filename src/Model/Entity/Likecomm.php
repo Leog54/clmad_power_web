@@ -6,13 +6,12 @@ namespace App\Model\Entity;
 use Cake\ORM\Entity;
 
 /**
- * Like Entity
+ * Likecomm Entity
  *
- * @property int $id_like
- * @property int $id_comm
  * @property int $id_user
+ * @property int $id_comm
  */
-class Like extends Entity
+class Likecomm extends Entity
 {
     /**
      * Fields that can be mass assigned using newEntity() or patchEntity().
@@ -24,7 +23,8 @@ class Like extends Entity
      * @var array
      */
     protected $_accessible = [
-        'id_comm' => true,
-        'id_user' => true,
+        '*' => true,
+        'id_user' => false,
+        'id_comm' => false,
     ];
 }

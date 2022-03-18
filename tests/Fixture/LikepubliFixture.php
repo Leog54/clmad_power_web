@@ -6,10 +6,16 @@ namespace App\Test\Fixture;
 use Cake\TestSuite\Fixture\TestFixture;
 
 /**
- * LikesFixture
+ * LikepubliFixture
  */
-class LikesFixture extends TestFixture
+class LikepubliFixture extends TestFixture
 {
+    /**
+     * Table name
+     *
+     * @var string
+     */
+    public $table = 'likepubli';
     /**
      * Init method
      *
@@ -19,9 +25,8 @@ class LikesFixture extends TestFixture
     {
         $this->records = [
             [
-                'id_like' => 1,
-                'id_comm' => 1,
                 'id_user' => 1,
+                'id_publi' => 1,
             ],
         ];
         parent::init();

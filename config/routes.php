@@ -96,11 +96,9 @@ return static function (RouteBuilder $routes) {
         $routes->resources('Users');
         $routes->resources('Categorie');
         $routes->resources('Commentaire');
-        $routes->resources('Like');
         $routes->resources('Message');
         $routes->resources('Notification');
         $routes->resources('Publication');
-        $routes->resources('Recevoir');
         $routes->resources('Relation');
         $routes->resources('Ressources');
         $routes->resources('Users');

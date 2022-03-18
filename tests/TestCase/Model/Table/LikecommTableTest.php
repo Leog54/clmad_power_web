@@ -3,20 +3,20 @@ declare(strict_types=1);
 
 namespace App\Test\TestCase\Model\Table;
 
-use App\Model\Table\NotificationTable;
+use App\Model\Table\LikecommTable;
 use Cake\TestSuite\TestCase;
 
 /**
- * App\Model\Table\NotificationTable Test Case
+ * App\Model\Table\LikecommTable Test Case
  */
-class NotificationTableTest extends TestCase
+class LikecommTableTest extends TestCase
 {
     /**
      * Test subject
      *
-     * @var \App\Model\Table\NotificationTable
+     * @var \App\Model\Table\LikecommTable
      */
-    protected $Notification;
+    protected $Likecomm;
 
     /**
      * Fixtures
@@ -24,7 +24,7 @@ class NotificationTableTest extends TestCase
      * @var array
      */
     protected $fixtures = [
-        'app.Notification',
+        'app.Likecomm',
     ];
 
     /**
@@ -35,8 +35,8 @@ class NotificationTableTest extends TestCase
     public function setUp(): void
     {
         parent::setUp();
-        $config = $this->getTableLocator()->exists('Notification') ? [] : ['className' => NotificationTable::class];
-        $this->Notification = $this->getTableLocator()->get('Notification', $config);
+        $config = $this->getTableLocator()->exists('Likecomm') ? [] : ['className' => LikecommTable::class];
+        $this->Likecomm = $this->getTableLocator()->get('Likecomm', $config);
     }
 
     /**
@@ -46,7 +46,7 @@ class NotificationTableTest extends TestCase
      */
     public function tearDown(): void
     {
-        unset($this->Notification);
+        unset($this->Likecomm);
 
         parent::tearDown();
     }
@@ -55,7 +55,7 @@ class NotificationTableTest extends TestCase
      * Test validationDefault method
      *
      * @return void
-     * @uses \App\Model\Table\NotificationTable::validationDefault()
+     * @uses \App\Model\Table\LikecommTable::validationDefault()
      */
     public function testValidationDefault(): void
     {

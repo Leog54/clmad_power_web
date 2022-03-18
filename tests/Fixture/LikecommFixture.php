@@ -6,16 +6,16 @@ namespace App\Test\Fixture;
 use Cake\TestSuite\Fixture\TestFixture;
 
 /**
- * RecevoirFixture
+ * LikecommFixture
  */
-class RecevoirFixture extends TestFixture
+class LikecommFixture extends TestFixture
 {
     /**
      * Table name
      *
      * @var string
      */
-    public $table = 'recevoir';
+    public $table = 'likecomm';
     /**
      * Init method
      *
@@ -25,9 +25,8 @@ class RecevoirFixture extends TestFixture
     {
         $this->records = [
             [
-                'id_message' => 1,
-                'id_conver' => 1,
-                'date_reception' => '2022-03-06 16:29:56',
+                'id_user' => 1,
+                'id_comm' => 1,
             ],
         ];
         parent::init();
