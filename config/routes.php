@@ -44,6 +44,8 @@ return static function (RouteBuilder $routes) {
      */
     $routes->setRouteClass(DashedRoute::class);
 
+    $routes->connect('/', ['controller' => 'Publication', 'action' => 'index']);
+
     $routes->scope('/', function (RouteBuilder $builder) {
         /*
          * Here, we are connecting '/' (base path) to a controller called 'Pages',
@@ -51,6 +53,7 @@ return static function (RouteBuilder $routes) {
          * to use (in this case, templates/Pages/home.php)...
          */
         $builder->connect('/', ['controller' => 'Pages', 'action' => 'display', 'home']);
+        $builder->connect('/', ['controller' => 'Publication', 'action' => 'index']);
         /*
          * ...and connect the rest of 'Pages' controller's URLs.
          */

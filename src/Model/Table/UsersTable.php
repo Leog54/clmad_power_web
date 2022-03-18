@@ -116,7 +116,7 @@ class UsersTable extends Table
         $validator
             ->dateTime('date_naissance_user')
             ->requirePresence('date_naissance_user', 'create')
-            ->notEmptyDateTime('date_naissance_user');
+            ->notEmptyDate('date_naissance_user');
 
         $validator
             ->scalar('situation_familial_user')
