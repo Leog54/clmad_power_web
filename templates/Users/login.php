@@ -4,8 +4,8 @@
     <?= $this->Form->create() ?>
     <fieldset>
         <legend><?= __('Merci de rentrer votre adresse email et votre mot de passe') ?></legend>
-        <?= $this->Form->control('email_user', ['label' => 'Email '], ['required' => true]) ?>
-        <?= $this->Form->control('mdp_user', ['label' => 'Mot de passe '], ['required' => true]) ?>
+        <?= $this->Form->control('email', ['label' => 'Email '], ['required' => true]) ?>
+        <?= $this->Form->control('password', ['label' => 'Mot de passe ', 'type' => 'password'], ['required' => true]) ?>
     </fieldset>
     <?= $this->Form->submit(__('Login')); ?>
     <?= $this->Form->end() ?>
