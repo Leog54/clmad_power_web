@@ -1,0 +1,13 @@
+.user .table-responsive tbody .actions a {
+    color:red;
+}
+
+.users  .button {
+    background-color: green;
+    color: white;
+    border-radius: 2px;
+}
+
+body {
+    background-color: white;
+}
