@@ -3,9 +3,9 @@
     <h3>Login</h3>
     <?= $this->Form->create() ?>
     <fieldset>
-        <legend><?= __('Please enter your username and password') ?></legend>
-        <?= $this->Form->control('email', ['required' => true]) ?>
-        <?= $this->Form->control('password', ['required' => true]) ?>
+        <legend><?= __('Merci de rentrer votre adresse email et votre mot de passe') ?></legend>
+        <?= $this->Form->control('email_user', ['label' => 'Email '], ['required' => true]) ?>
+        <?= $this->Form->control('mdp_user', ['label' => 'Mot de passe '], ['required' => true]) ?>
     </fieldset>
     <?= $this->Form->submit(__('Login')); ?>
     <?= $this->Form->end() ?>
