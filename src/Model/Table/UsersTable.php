@@ -102,16 +102,16 @@ class UsersTable extends Table
             ->notEmptyString('num_tel_user');
 
         $validator
-            ->scalar('email_user')
-            ->maxLength('email_user', 200)
-            ->requirePresence('email_user', 'create')
-            ->notEmptyString('email_user');
+            ->scalar('email')
+            ->maxLength('email', 200)
+            ->requirePresence('email', 'create')
+            ->notEmptyString('email');
 
         $validator
-            ->scalar('mdp_user')
-            ->maxLength('mdp_user', 500)
-            ->requirePresence('mdp_user', 'create')
-            ->notEmptyString('mdp_user');
+            ->scalar('password')
+            ->maxLength('password', 500)
+            ->requirePresence('password', 'create')
+            ->notEmptyString('password');
 
         $validator
             ->dateTime('date_naissance_user')

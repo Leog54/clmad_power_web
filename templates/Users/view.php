@@ -52,11 +52,11 @@
                 </tr>
                 <tr>
                     <th><?= __('Email User') ?></th>
-                    <td><?= h($user->email_user) ?></td>
+                    <td><?= h($user->email) ?></td>
                 </tr>
                 <tr>
                     <th><?= __('Mdp User') ?></th>
-                    <td><?= h($user->mdp_user) ?></td>
+                    <td><?= h($user->password) ?></td>
                 </tr>
                 <tr>
                     <th><?= __('Situation Familial User') ?></th>

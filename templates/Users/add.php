@@ -28,8 +28,8 @@
                     echo $this->Form->control('cp_user', ['label' => 'Code Postal']);
                     echo $this->Form->control('ville_user', ['label' => 'Ville']);
                     echo $this->Form->control('num_tel_user', ['label' => 'Téléphone']);
-                    echo $this->Form->control('email_user', ['label' => 'Email']);
-                    echo $this->Form->control('mdp_user', ['label' => 'Mot de passe']);
+                    echo $this->Form->control('email', ['label' => 'Email']);
+                    echo $this->Form->control('password', ['label' => 'Mot de passe']);
                     echo $this->Form->control('date_naissance_user', ['label' => 'Date de naissance']);
                     echo $this->Form->control('situation_familial_user', ['label' => 'Situation familiale']);
                     echo $this->Form->control('cgu_consent_user', ['label' => 'J\'accepte les termes d\'utilisation']);               

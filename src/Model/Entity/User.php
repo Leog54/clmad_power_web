@@ -18,8 +18,8 @@ use Cake\ORM\Entity;
  * @property string $cp_user
  * @property string|null $ville_user
  * @property string $num_tel_user
- * @property string $email_user
- * @property string $mdp_user
+ * @property string $email
+ * @property string $password
  * @property \Cake\I18n\FrozenTime $date_naissance_user
  * @property string|null $situation_familial_user
  * @property bool|null $cgu_consent_user
@@ -45,8 +45,8 @@ class User extends Entity
         'cp_user' => true,
         'ville_user' => true,
         'num_tel_user' => true,
-        'email_user' => true,
-        'mdp_user' => true,
+        'email' => true,
+        'password' => true,
         'date_naissance_user' => true,
         'situation_familial_user' => true,
         'cgu_consent_user' => true,

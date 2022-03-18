@@ -20,8 +20,8 @@
                     <th><?= $this->Paginator->sort('cp_user') ?></th>
                     <th><?= $this->Paginator->sort('ville_user') ?></th>
                     <th><?= $this->Paginator->sort('num_tel_user') ?></th>
-                    <th><?= $this->Paginator->sort('email_user') ?></th>
-                    <th><?= $this->Paginator->sort('mdp_user') ?></th>
+                    <th><?= $this->Paginator->sort('email') ?></th>
+                    <th><?= $this->Paginator->sort('password') ?></th>
                     <th><?= $this->Paginator->sort('date_naissance_user') ?></th>
                     <th><?= $this->Paginator->sort('situation_familial_user') ?></th>
                     <th><?= $this->Paginator->sort('cgu_consent_user') ?></th>
@@ -41,8 +41,8 @@
                     <td><?= h($user->cp_user) ?></td>
                     <td><?= h($user->ville_user) ?></td>
                     <td><?= h($user->num_tel_user) ?></td>
-                    <td><?= h($user->email_user) ?></td>
-                    <td><?= h($user->mdp_user) ?></td>
+                    <td><?= h($user->email) ?></td>
+                    <td><?= h($user->password) ?></td>
                     <td><?= h($user->date_naissance_user) ?></td>
                     <td><?= h($user->situation_familial_user) ?></td>
                     <td><?= h($user->cgu_consent_user) ?></td>

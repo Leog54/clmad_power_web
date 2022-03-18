@@ -30,8 +30,8 @@
                     echo $this->Form->control('cp_user');
                     echo $this->Form->control('ville_user');
                     echo $this->Form->control('num_tel_user');
-                    echo $this->Form->control('email_user');
-                    echo $this->Form->control('mdp_user');
+                    echo $this->Form->control('email');
+                    echo $this->Form->control('password');
                     echo $this->Form->control('date_naissance_user');
                     echo $this->Form->control('situation_familial_user');
                     echo $this->Form->control('cgu_consent_user');

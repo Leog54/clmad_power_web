@@ -115,7 +115,7 @@ class UsersController extends AppController
         $result = $this->Authentication->getResult();
         if ($result->isValid()) {
             $redirect = $this->request->getQuery('redirect', [
-                'controller' => 'Articles',
+                'controller' => 'Publication',
                 'action' => 'index',
             ]);
 
