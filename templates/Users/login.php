@@ -1,14 +1,18 @@
 <div class="users form">
-    <?= $this->Flash->render() ?>
-    <h3>Login</h3>
-    <?= $this->Form->create() ?>
-    <fieldset>
-        <legend><?= __('Merci de rentrer votre adresse email et votre mot de passe') ?></legend>
-        <?= $this->Form->control('email', ['label' => 'Email '], ['required' => true]) ?>
-        <?= $this->Form->control('password', ['label' => 'Mot de passe ', 'type' => 'password'], ['required' => true]) ?>
-    </fieldset>
-    <?= $this->Form->submit(__('Login')); ?>
-    <?= $this->Form->end() ?>
-
-    <?= $this->Html->link("Add User", ['action' => 'add']) ?>
+    <div class="logo">
+        <img src="/clmad_app/webroot/img/bigLogo.png" alt="logoAccueil">
+    </div>
+    <div class="connForm">
+        <?= $this->Flash->render() ?>
+            <h3>Connectez-vous</h3>
+            <?= $this->Form->create() ?>
+            <fieldset>
+                <?= $this->Form->control('email', ['label' => 'Adresse e-mail'], ['required' => true]) ?>
+                <?= $this->Form->control('password', ['label' => 'Mot de passe ', 'type' => 'password'], ['required' => true]) ?>
+                <?= $this->Html->link("Mot de passe oublié ?", ['action' => 'add']) ?>
+            </fieldset>
+            <?= $this->Form->submit(__('Connexion')); ?>
+        <?= $this->Form->end() ?>
+        <p class="no-account">Pas encore de compte ? <?= $this->Html->link("Inscrivez-vous dès maintenant !", ['action' => 'add']) ?></p>
+    </div>
 </div>

@@ -1,13 +1,148 @@
-.user .table-responsive tbody .actions a {
-    color:red;
-}
-
-.users  .button {
-    background-color: green;
-    color: white;
-    border-radius: 2px;
-}
-
 body {
     background-color: white;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: #03989E;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(129, 170, 123, 0.29);
+    height: 100px;
+}
+
+header ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+header ul li {
+    list-style: none;
+    margin-right: 25px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #03989E;
+    padding: 20px;
+}
+
+fieldset{
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.users {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    margin-right: 50px;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.users h3 {
+    font-size: 40px;
+}
+
+.users .logo {
+    width: 40%;
+    height: auto;
+}
+
+.users .logo img {
+    width: 100%;
+    height: auto;
+}
+
+.users .connForm{
+    width: 40%;
+}
+
+.users fieldset{
+    width: 100%;
+}
+
+.users fieldset .email{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.users fieldset .email label {
+    margin-left: 10px;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.users fieldset .email input{
+    width: 100%;
+    height: 40px;
+    font-size: 28px;
+    border-radius: 0;
+    border: 0.5px solid;
+}
+
+.users fieldset .password{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.users fieldset .password label {
+    margin-left: 10px;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.users fieldset .password input{
+    width: 100%;
+    height: 40px;
+    font-size: 28px;
+    border-radius: 0;
+    border: 0.5px solid;
+}
+
+.users fieldset a{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.users .submit{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.users .submit input{
+    width: 70%;
+    background-color: #03989E;
+    color: #fff;
+    height: 40px;
+    border: none;
+    font-size: 22px;
+}
+
+.users .no-account{
+    margin-top: 20px;
+    text-align: center;
 }

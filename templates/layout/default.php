@@ -27,7 +27,9 @@ $cakeDescription = 'Ressources Relationnelles';
     </title>
     <?= $this->Html->meta('icon') ?>
 
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
     <?= $this->Html->css(['style']) ?>
 
@@ -35,16 +37,14 @@ $cakeDescription = 'Ressources Relationnelles';
     <?= $this->fetch('css') ?>
     <?= $this->fetch('script') ?>
 </head>
-<body>
-    <nav class="top-nav">
-        <div class="top-nav-title">
-            <a href="<?= $this->Url->build('/') ?>"><span>Cake</span>PHP</a>
+    <header>
+        <div class="logo">
+            <img src="/clmad_app/webroot/img/logo.png" alt="logoNav">
         </div>
-        <div class="top-nav-links">
-            <a target="_blank" rel="noopener" href="https://book.cakephp.org/4/">Documentation</a>
-            <a target="_blank" rel="noopener" href="https://api.cakephp.org/">API</a>
-        </div>
-    </nav>
+        <ul>
+            <li><a href="publications">Accès aux ressources</a></li>
+        </ul>
+    </header>
     <main class="main">
         <div class="container">
             <?= $this->Flash->render() ?>
