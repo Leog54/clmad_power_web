@@ -111,6 +111,6 @@ class PublicationController extends AppController
     public function beforeFilter(\Cake\Event\EventInterface $event)
     {
         parent::beforeFilter($event);
-        $this->Authentication->addUnauthenticatedActions(['index']);
+        $this->Authentication->allow('index');
     }
 }
