@@ -14,5 +14,8 @@
             <?= $this->Form->submit(__('Connexion')); ?>
         <?= $this->Form->end() ?>
         <p class="no-account">Pas encore de compte ? <?= $this->Html->link("Inscrivez-vous dès maintenant !", ['action' => 'add']) ?></p>
+        <div class="accRess">
+            <a href="publication">Accès aux ressources</a>
+        </div>
     </div>
 </div>

@@ -146,3 +146,55 @@ fieldset{
     margin-top: 20px;
     text-align: center;
 }
+
+.users .accRess a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #03989E;
+    padding: 20px;
+}
+
+.users .accRess {
+    display: none;
+}
+
+@media (max-width: 900px) {
+    header .ressources {
+        display: none;
+    }
+
+    header .logo img{
+        width: 100%;
+    }
+
+    header{
+        justify-content: center;
+    }
+
+    .users{
+        margin: 0;
+    }
+
+    .users .logo{
+        display: none;        
+    }
+
+    .users .connForm h3{
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .users .accRess{
+        display: flex;
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+    .users .accRess a{
+        text-align: center;
+    }
+
+    .users .connForm{
+        width: 90%;
+    }
+}
