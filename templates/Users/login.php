@@ -1,6 +1,6 @@
 <div class="users form">
     <div class="logo">
-        <img src="/clmad_power_web/webroot/img/bigLogo.png" alt="logoAccueil">
+        <img src="/clmad_app/webroot/img/bigLogo.png" alt="logoAccueil">
     </div>
     <div class="connForm">
         <?= $this->Flash->render() ?>
