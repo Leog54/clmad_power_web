@@ -107,4 +107,10 @@ class PublicationController extends AppController
         return $this->redirect(['action' => 'index']);
         $this->viewBuilder()->setOption('serialize', 'publication');
     }
+
+    public function beforeFilter(\Cake\Event\EventInterface $event)
+    {
+        parent::beforeFilter($event);
+        $this->Authentication->allow('index');
+    }
 }
