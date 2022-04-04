@@ -39,7 +39,7 @@ $cakeDescription = 'Ressources Relationnelles';
 </head>
     <header>
         <div class="logo">
-            <img src="/clmad_power_web/webroot/img/logo.png" alt="logoNav">
+            <img src="/clmad_app/webroot/img/logo.png" alt="logoNav">
         </div>
         <ul class="ressources">
             <li><a href="../publication">Accès aux ressources</a></li>
