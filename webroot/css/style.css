@@ -209,4 +209,13 @@ fieldset{
     text-align: center;
 }
 
+.add .nomComplet {
+    display: inline-flex;
+}
+
+.add .labelContainer {
+    margin-right: 5px;
+    display: inline-flex
+}
+
 /**      virer position: fixed; du header pour la page add.php
