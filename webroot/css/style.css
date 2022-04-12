@@ -198,3 +198,15 @@ fieldset{
         width: 90%;
     }
 }
+
+.add {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
+}
+
+.add h3 {
+    text-align: center;
+}
+
+/**      virer position: fixed; du header pour la page add.php
