@@ -78,7 +78,7 @@ fieldset{
     width: 40%;
 }
 
-.users fieldset{
+.users.add fieldset{
     width: 100%;
 }
 
@@ -200,22 +200,59 @@ fieldset{
 }
 
 .add {
-    margin-left: auto;
-    margin-right: auto;
-    width: 6em
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    margin-right: 50px;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .add h3 {
+    font-size: 22px;
     text-align: center;
+    margin-bottom: 15px;
+
+}
+
+.add fieldset .email{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
 }
 
 .add .nomComplet {
     display: inline-flex;
 }
 
+.add .civilite {
+    text-align: center;
+}
+
+/*
 .add .labelContainer {
     margin-right: 5px;
     display: inline-flex
 }
+*/
+
+
+/*
+.add .button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.add  .button{
+    width: 50%;
+    background-color: #03989E;
+    color: #fff;
+    height: 40px;
+    border: none;
+    font-size: 22px;
+}
+*/
 
 /**      virer position: fixed; du header pour la page add.php
