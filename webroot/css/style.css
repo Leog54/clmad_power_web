@@ -222,6 +222,18 @@ fieldset{
     margin-top: 5px;
 }
 
+.add fieldset .password{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.add fieldset .date_naissance_user {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
 .add .nomComplet {
     display: inline-flex;
 }
