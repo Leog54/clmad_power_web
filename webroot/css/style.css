@@ -140,6 +140,11 @@ fieldset{
     height: 40px;
     border: none;
     font-size: 22px;
+    cursor: pointer;
+}
+
+.users .submit input:hover {
+    background-color: #2c9da1;
 }
 
 .users .no-account{
