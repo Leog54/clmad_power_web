@@ -248,6 +248,10 @@ fieldset{
     font-size: 22px;
 }
 
+.add .submit:hover {
+    background-color: #fff;
+}
+
 @media (max-width: 900px) {
 .add .connForm {
     width: 90%;
