@@ -18,10 +18,11 @@
             echo "<label>Civilité</label>";                  
             echo $this->Form->radio('sexe_user', ['Masculin','Féminin','Neutre']);
             echo "</div>";
-            echo "<div class='nomComplet'>";
+            echo "<div class='numeroRue'>";
             echo $this->Form->control('num_rue_user', ['label' => 'Numéro de rue']);  
-            echo $this->Form->control('rue_user', ['label' => 'Rue']);
             echo "</div>";
+            echo $this->Form->control('rue_user', ['label' => 'Rue']);
+            
             echo $this->Form->control('cp_user', ['label' => 'Code Postal']);
             echo $this->Form->control('ville_user', ['label' => 'Ville']);
             echo $this->Form->control('num_tel_user', ['label' => 'Téléphone']);
