@@ -221,40 +221,39 @@ fieldset{
     flex-direction: column;
     margin-top: 5px;
 }
-
+/*
 .add .nomComplet {
     display: inline-flex;
     flex-direction: column;
-}
+}*/
 
 .add .civilite {
     text-align: center;
     margin-top: 10px;
 }
 
-/*
-.add .labelContainer {
-    margin-right: 5px;
-    display: inline-flex
-}
-*/
-
-
-/*
-.add .button{
+.add .submit {
+    margin-top: 10px;
     display: flex;
     justify-content: center;
-    margin-top: 20px;
 }
 
-.add  .button{
-    width: 50%;
+
+.add .submit input {
+    width: 70%;
     background-color: #03989E;
     color: #fff;
     height: 40px;
     border: none;
     font-size: 22px;
 }
-*/
+
+@media (max-width: 900px) {
+.add .connForm {
+    width: 90%;
+    }
+}
+
+
 
 /**      virer position: fixed; du header pour la page add.php

@@ -33,7 +33,7 @@
             echo $this->Form->control('cgu_consent_user', ['label' => 'J\'accepte les termes d\'utilisation']);               
         ?>
     </fieldset>
-    <?= $this->Form->button(__("S'enregistrer")) ?>
+    <?= $this->Form->submit(__("S'enregistrer")) ?>
     <?= $this->Form->end() ?>
 </div>
 </div>
