@@ -89,17 +89,4 @@ return static function (RouteBuilder $routes) {
      * });
      * ```
      */
-
-    $routes->scope('/api', function (RouteBuilder $routes) {
-        $routes->setExtensions(['json', 'xml']);
-        $routes->resources('Users');
-        $routes->resources('Categorie');
-        $routes->resources('Commentaire');
-        $routes->resources('Message');
-        $routes->resources('Notification');
-        $routes->resources('Publication');
-        $routes->resources('Relation');
-        $routes->resources('Ressources');
-        $routes->resources('Users');
-    });
 };
