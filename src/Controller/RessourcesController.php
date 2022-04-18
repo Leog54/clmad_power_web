@@ -18,6 +18,7 @@ class RessourcesController extends AppController
      */
     public function index()
     {
+        $this->Authorization->skipAuthorization();
         $ressources = $this->paginate($this->Ressources);
 
         $this->set(compact('ressources'));
@@ -33,6 +34,7 @@ class RessourcesController extends AppController
      */
     public function view($id = null)
     {
+        $this->Authorization->skipAuthorization();
         $ressource = $this->Ressources->get($id, [
             'contain' => [],
         ]);
@@ -49,6 +51,7 @@ class RessourcesController extends AppController
     public function add()
     {
         $ressource = $this->Ressources->newEmptyEntity();
+        $this->Authorization->authorize($ressource);
         if ($this->request->is('post')) {
             $ressource = $this->Ressources->patchEntity($ressource, $this->request->getData());
             if ($this->Ressources->save($ressource)) {
@@ -74,6 +77,7 @@ class RessourcesController extends AppController
         $ressource = $this->Ressources->get($id, [
             'contain' => [],
         ]);
+        $this->Authorization->authorize($ressource);
         if ($this->request->is(['patch', 'post', 'put'])) {
             $ressource = $this->Ressources->patchEntity($ressource, $this->request->getData());
             if ($this->Ressources->save($ressource)) {
@@ -98,6 +102,7 @@ class RessourcesController extends AppController
     {
         $this->request->allowMethod(['post', 'delete']);
         $ressource = $this->Ressources->get($id);
+        $this->Authorization->authorize($ressource);
         if ($this->Ressources->delete($ressource)) {
             $this->Flash->success(__('The ressource has been deleted.'));
         } else {

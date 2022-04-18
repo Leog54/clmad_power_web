@@ -13,16 +13,17 @@
     </aside>
     <div class="column-responsive column-80">
         <div class="publication form content">
-            <?= $this->Form->create($publication) ?>
+            <?= $this->Form->create($publication, ['type' => 'file']) ?>
             <fieldset>
-                <legend><?= __('Add Publication') ?></legend>
+                <legend><?= __('Ajouter une publication') ?></legend>
                 <?php
-                    echo $this->Form->control('contenu_publi');
-                    echo $this->Form->control('date_publi');
+                    echo $this->Form->textarea('contenu_publi', ['label' => 'Contenu :', 'rows' => '3']);
                     echo $this->Form->control('link_img_publi');
-                    echo $this->Form->control('link_pj_publi');
-                    echo $this->Form->control('id_categ');
-                    echo $this->Form->control('id_user');
+                    echo $this->Form->control('link_pj_publi', ['type' => 'file']);
+                    echo $this->Form->control('id_categ', ['options' => $categories]);
+                    echo $this->Form->control('id_user', ['type' => 'hidden', 'value' => $userId]);
+                    echo "<label>Visibilité</label>";  
+                    echo $this->Form->radio('visi', ['Privé','Amis','Tout le monde']);
                 ?>
             </fieldset>
             <?= $this->Form->button(__('Submit')) ?>

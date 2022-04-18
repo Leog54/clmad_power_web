@@ -40,6 +40,15 @@ class PublicationTable extends Table
         $this->setTable('publication');
         $this->setDisplayField('id_publi');
         $this->setPrimaryKey('id_publi');
+        $this->addBehavior('Timestamp', [
+            'events' => [
+                'Model.beforeSave' => [
+                    'date_publi' => 'new',
+                ]
+            ]
+            ]);
+        $this->belongsTo('Users')
+            ->setForeignKey('id_user');
     }
 
     /**
@@ -61,11 +70,6 @@ class PublicationTable extends Table
             ->notEmptyString('contenu_publi');
 
         $validator
-            ->dateTime('date_publi')
-            ->requirePresence('date_publi', 'create')
-            ->notEmptyDateTime('date_publi');
-
-        $validator
             ->scalar('link_img_publi')
             ->maxLength('link_img_publi', 500)
             ->allowEmptyString('link_img_publi');
@@ -84,7 +88,7 @@ class PublicationTable extends Table
             ->integer('id_user')
             ->requirePresence('id_user', 'create')
             ->notEmptyString('id_user');
-
+            
         return $validator;
     }
 }

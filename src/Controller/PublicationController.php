@@ -3,6 +3,8 @@ declare(strict_types=1);
 
 namespace App\Controller;
 
+use App\Model\Entity\Categorie;
+
 /**
  * Publication Controller
  *
@@ -18,9 +20,27 @@ class PublicationController extends AppController
      */
     public function index()
     {
+        $this->Authorization->skipAuthorization();
         $publication = $this->paginate($this->Publication);
+        $user = $this->Authentication->getIdentity();
+        $userPrenom = $user->prenom_user;
+
+      
+
+            $query = $this->fetchTable('Users')->find('all', [
+                'fields' => ['nom_user', 'prenom_user']
+            ]);
+
+        
+
+        $result = $query->all();
+        
+        $user = $result->toArray();
 
         $this->set(compact('publication'));
+        $this->set(compact('user'));
+        $this->set(compact('userPrenom'));
+
         $this->viewBuilder()->setOption('serialize', 'publication');
     }
 
@@ -33,10 +53,12 @@ class PublicationController extends AppController
      */
     public function view($id = null)
     {
+        $this->Authorization->skipAuthorization();
         $publication = $this->Publication->get($id, [
             'contain' => [],
         ]);
 
+        
         $this->set(compact('publication'));
         $this->viewBuilder()->setOption('serialize', 'publication');
     }
@@ -49,8 +71,24 @@ class PublicationController extends AppController
     public function add()
     {
         $publication = $this->Publication->newEmptyEntity();
+        $this->Authorization->authorize($publication);
+        $user = $this->Authentication->getIdentity();
+        $userId = $user->id_user;
+
         if ($this->request->is('post')) {
             $publication = $this->Publication->patchEntity($publication, $this->request->getData());
+            $pjPubli = $this->request->getData('link_pj_publi');
+
+            if (!$publication->getErrors) {
+                $name = $pjPubli->getClientFilename();
+                $targetPath = WWW_ROOT.'img'.DS.$name;
+                
+                if ($name) {
+                    $pjPubli->moveTo($targetPath);
+                    $publication->link_pj_publi = $name;
+                }
+            }
+            
             if ($this->Publication->save($publication)) {
                 $this->Flash->success(__('The publication has been saved.'));
 
@@ -58,6 +96,18 @@ class PublicationController extends AppController
             }
             $this->Flash->error(__('The publication could not be saved. Please, try again.'));
         }
+
+
+        $data = $this->fetchTable('Categorie')->find('list', [
+            'order' => 'Categorie.nom_categ ASC',
+            'valueField' => 'nom_categ'
+        ]);
+
+        $result = $data->all();
+        $categories = $result->toArray();
+
+        $this->set(compact('userId'));
+        $this->set(compact('categories'));
         $this->set(compact('publication'));
         $this->viewBuilder()->setOption('serialize', 'publication');
     }
@@ -74,8 +124,11 @@ class PublicationController extends AppController
         $publication = $this->Publication->get($id, [
             'contain' => [],
         ]);
+        $this->Authorization->authorize($publication);
         if ($this->request->is(['patch', 'post', 'put'])) {
-            $publication = $this->Publication->patchEntity($publication, $this->request->getData());
+            $publication = $this->Publication->patchEntity($publication, $this->request->getData(), [
+                'accessibleFields' => ['id_user' => false]
+            ]);
             if ($this->Publication->save($publication)) {
                 $this->Flash->success(__('The publication has been saved.'));
 
@@ -98,6 +151,7 @@ class PublicationController extends AppController
     {
         $this->request->allowMethod(['post', 'delete']);
         $publication = $this->Publication->get($id);
+        $this->Authorization->authorize($publication);
         if ($this->Publication->delete($publication)) {
             $this->Flash->success(__('The publication has been deleted.'));
         } else {

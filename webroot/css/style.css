@@ -210,17 +210,27 @@ fieldset{
     padding-top: 100px;
 }
 
+.imagePubli {
+    width: 500px;
+}
+
+.posts {
+    text-align: center;
+}
+
+.post {
+    border: 1px rgb(219, 219, 219) solid;
+}
+
+.row {
+    padding-top: 100px;
+}
+
 /* RESSOURCES */
 
 .ressources.index {
     padding-top: 100px;
 }
-
-
-
-
-
-
 
 .add {
     display: flex;

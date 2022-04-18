@@ -18,6 +18,7 @@ class LikecommController extends AppController
      */
     public function index()
     {
+        $this->Authorization->skipAuthorization();
         $likecomm = $this->paginate($this->Likecomm);
 
         $this->set(compact('likecomm'));
@@ -32,6 +33,7 @@ class LikecommController extends AppController
      */
     public function view($id = null)
     {
+        $this->Authorization->skipAuthorization();
         $likecomm = $this->Likecomm->get($id, [
             'contain' => [],
         ]);
@@ -47,6 +49,7 @@ class LikecommController extends AppController
     public function add()
     {
         $likecomm = $this->Likecomm->newEmptyEntity();
+        $this->Authorization->authorize($likecomm);
         if ($this->request->is('post')) {
             $likecomm = $this->Likecomm->patchEntity($likecomm, $this->request->getData());
             if ($this->Likecomm->save($likecomm)) {
@@ -71,6 +74,7 @@ class LikecommController extends AppController
         $likecomm = $this->Likecomm->get($id, [
             'contain' => [],
         ]);
+        $this->Authorization->authorize($likecomm);
         if ($this->request->is(['patch', 'post', 'put'])) {
             $likecomm = $this->Likecomm->patchEntity($likecomm, $this->request->getData());
             if ($this->Likecomm->save($likecomm)) {
@@ -94,6 +98,7 @@ class LikecommController extends AppController
     {
         $this->request->allowMethod(['post', 'delete']);
         $likecomm = $this->Likecomm->get($id);
+        $this->Authorization->authorize($likecomm);
         if ($this->Likecomm->delete($likecomm)) {
             $this->Flash->success(__('The likecomm has been deleted.'));
         } else {
