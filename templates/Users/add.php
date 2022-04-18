@@ -15,7 +15,7 @@
             echo $this->Form->control('prenom_user', ['label' => 'Prénom']); 
             echo "</div>";
             echo "<div class='civilite'>";
-            echo "<label>Civilité</label>";                  
+            echo "<label>Civilité : </label>";                  
             echo $this->Form->radio('sexe_user', ['Masculin','Féminin','Neutre']);
             echo "</div>";
             echo "<div class='numeroRue'>";
