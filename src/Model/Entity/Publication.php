@@ -15,6 +15,7 @@ use Cake\ORM\Entity;
  * @property string|null $link_pj_publi
  * @property int $id_categ
  * @property int $id_user
+ * @property int $visi
  */
 class Publication extends Entity
 {
@@ -34,5 +35,6 @@ class Publication extends Entity
         'link_pj_publi' => true,
         'id_categ' => true,
         'id_user' => true,
+        'visi' => true,
     ];
 }

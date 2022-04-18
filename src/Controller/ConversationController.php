@@ -18,6 +18,7 @@ class ConversationController extends AppController
      */
     public function index()
     {
+        $this->Authorization->skipAuthorization();
         $conversation = $this->paginate($this->Conversation);
 
         $this->set(compact('conversation'));
@@ -33,6 +34,7 @@ class ConversationController extends AppController
      */
     public function view($id = null)
     {
+        $this->Authorization->skipAuthorization();
         $conversation = $this->Conversation->get($id, [
             'contain' => [],
         ]);
@@ -49,6 +51,7 @@ class ConversationController extends AppController
     public function add()
     {
         $conversation = $this->Conversation->newEmptyEntity();
+        $this->Authorization->authorize($conversation);
         if ($this->request->is('post')) {
             $conversation = $this->Conversation->patchEntity($conversation, $this->request->getData());
             if ($this->Conversation->save($conversation)) {
@@ -74,6 +77,7 @@ class ConversationController extends AppController
         $conversation = $this->Conversation->get($id, [
             'contain' => [],
         ]);
+        $this->Authorization->authorize($conversation);
         if ($this->request->is(['patch', 'post', 'put'])) {
             $conversation = $this->Conversation->patchEntity($conversation, $this->request->getData());
             if ($this->Conversation->save($conversation)) {
@@ -98,6 +102,7 @@ class ConversationController extends AppController
     {
         $this->request->allowMethod(['post', 'delete']);
         $conversation = $this->Conversation->get($id);
+        $this->Authorization->authorize($conversation);
         if ($this->Conversation->delete($conversation)) {
             $this->Flash->success(__('The conversation has been deleted.'));
         } else {
