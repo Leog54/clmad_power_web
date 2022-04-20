@@ -18,6 +18,7 @@ class LikepubliController extends AppController
      */
     public function index()
     {
+        $this->Authorization->skipAuthorization();
         $likepubli = $this->paginate($this->Likepubli);
 
         $this->set(compact('likepubli'));
@@ -32,6 +33,7 @@ class LikepubliController extends AppController
      */
     public function view($id = null)
     {
+        $this->Authorization->skipAuthorization();
         $likepubli = $this->Likepubli->get($id, [
             'contain' => [],
         ]);
