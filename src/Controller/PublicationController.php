@@ -21,27 +21,25 @@ class PublicationController extends AppController
     public function index()
     {
         $this->Authorization->skipAuthorization();
-        $publication = $this->paginate($this->Publication);
-        $user = $this->Authentication->getIdentity();
-        $userPrenom = $user->prenom_user;
+        $publications = $this->paginate($this->Publication);
+        $connectedUser = $this->Authentication->getIdentity();
+        $AuthorUserPubli = [];
 
-      
-
+        foreach ($publications as $publication) {
             $query = $this->fetchTable('Users')->find('all', [
-                'fields' => ['nom_user', 'prenom_user']
-            ]);
+                'fields' => ['nom_user', 'prenom_user'],
+                'conditions' => ['Users.id_user =' => $publication->id_user]
+                ]);
+            $result = $query->all();
+            $user = $result->toArray();
+            array_push($AuthorUserPubli, $user);
+        }
 
-        
+        $this->set(compact('publications'));
+        $this->set(compact('connectedUser'));
+        $this->set(compact('AuthorUserPubli'));
 
-        $result = $query->all();
-        
-        $user = $result->toArray();
-
-        $this->set(compact('publication'));
-        $this->set(compact('user'));
-        $this->set(compact('userPrenom'));
-
-        $this->viewBuilder()->setOption('serialize', 'publication');
+        $this->viewBuilder()->setOption('serialize', 'publications');
     }
 
     /**
