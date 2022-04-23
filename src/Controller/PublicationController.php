@@ -24,6 +24,7 @@ class PublicationController extends AppController
         $publications = $this->paginate($this->Publication);
         $connectedUser = $this->Authentication->getIdentity();
         $AuthorUserPubli = [];
+        $CommentairesPubli = [];
 
         foreach ($publications as $publication) {
             $query = $this->fetchTable('Users')->find('all', [
@@ -33,11 +34,20 @@ class PublicationController extends AppController
             $result = $query->all();
             $user = $result->toArray();
             array_push($AuthorUserPubli, $user);
+
+            $query2 = $this->fetchTable('Commentaire')->find('all', [
+                'fields' => ['contenu_comm', 'date_comm'],
+                'conditions' => ['Commentaire.id_publi' => $publication->id_publi]
+            ]);
+            $result2 = $query2->all();
+            $commentaire = $result2->toArray();
+            array_push($CommentairesPubli, $commentaire);
         }
 
         $this->set(compact('publications'));
         $this->set(compact('connectedUser'));
         $this->set(compact('AuthorUserPubli'));
+        $this->set(compact('CommentairesPubli'));
 
         $this->viewBuilder()->setOption('serialize', 'publications');
     }
@@ -49,15 +59,37 @@ class PublicationController extends AppController
      * @return \Cake\Http\Response|null|void Renders view
      * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
      */
-    public function view($id = null)
+    public function view($id)
     {
         $this->Authorization->skipAuthorization();
-        $publication = $this->Publication->get($id, [
-            'contain' => [],
+        $publication = $this->Publication->get($id);
+
+        $query = $this->fetchTable('Users')->find('all', [
+            'fields' => ['nom_user', 'prenom_user'],
+            'conditions' => ['Users.id_user =' => $publication->id_user]
+            ]);
+        $result = $query->all();
+        $user = $result->toArray();
+
+        $query2 = $this->fetchTable('Commentaire')->find('all', [
+            'fields' => ['contenu_comm', 'date_comm'],
+            'conditions' => ['Commentaire.id_publi' => $publication->id_publi]
+        ]);
+        $result2 = $query2->all();
+        $commentaires = $result2->toArray();
+
+        $query3 = $this->fetchTable('Categorie')->find('all', [
+            'fields' => ['nom_categ'],
+            'conditions' => ['Categorie.id_categ' => $publication->id_categ]
         ]);
 
-        
+        $result3 = $query3->all();
+        $categorie = $result3->toArray();
+
         $this->set(compact('publication'));
+        $this->set(compact('user'));
+        $this->set(compact('commentaires'));
+        $this->set(compact('categorie'));
         $this->viewBuilder()->setOption('serialize', 'publication');
     }
 
@@ -134,6 +166,16 @@ class PublicationController extends AppController
             }
             $this->Flash->error(__('The publication could not be saved. Please, try again.'));
         }
+
+        $data = $this->fetchTable('Categorie')->find('list', [
+            'order' => 'Categorie.nom_categ ASC',
+            'valueField' => 'nom_categ'
+        ]);
+
+        $result = $data->all();
+        $categories = $result->toArray();
+
+        $this->set(compact('categories'));
         $this->set(compact('publication'));
         $this->viewBuilder()->setOption('serialize', 'publication');
     }
