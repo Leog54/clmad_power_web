@@ -4,6 +4,7 @@
  * @var \App\Model\Entity\Publication[]|\Cake\Collection\CollectionInterface $publication
  */
 
+use Cake\I18n\FrozenTime;
 use PHPUnit\Framework\Constraint\IsNull;
 
 use function PHPUnit\Framework\isEmpty;
@@ -21,7 +22,8 @@ use function PHPUnit\Framework\isEmpty;
             <div class="post">
                 <div class="contenu">
                     <p><?= h($AuthorUserPubli[$i][0]['nom_user'] . " " . $AuthorUserPubli[$i][0]['prenom_user']) ?></p>
-
+                    <?php $datePublication = new FrozenTime($publication->date_publi); ?>
+                    <p><?= h(__($datePublication->timeAgoInWords(['format' => 'd MMM YYY', 'end' => '+6 month']))) ?></p>
                     <p><?= h($publication->contenu_publi) ?></p>
                     <?php if ($publication->link_img_publi != "") { echo $this->Html->image($publication->link_img_publi, ['class' => 'imagePubli']); } ?>
                 </div>

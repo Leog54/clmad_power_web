@@ -1,0 +1,1176 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2022-04-23 23:42+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: ./src/Controller/CategorieController.php:55
+#: ./src/Controller/CategorieController.php:80
+msgid "The categorie has been saved."
+msgstr "La catégorie a été sauvegardée."
+
+#: ./src/Controller/CategorieController.php:59
+#: ./src/Controller/CategorieController.php:84
+msgid "The categorie could not be saved. Please, try again."
+msgstr "La catégorie n'a pas été enregistrée. Merci de réessayer."
+
+#: ./src/Controller/CategorieController.php:102
+msgid "The categorie has been deleted."
+msgstr "La catégorie a été supprimée."
+
+#: ./src/Controller/CategorieController.php:104
+msgid "The categorie could not be deleted. Please, try again."
+msgstr "La catégorie de ne peut pas être supprimée. Merci de réessayer"
+
+#: ./src/Controller/CommentaireController.php:55
+#: ./src/Controller/CommentaireController.php:80
+msgid "The commentaire has been saved."
+msgstr "Le commentaire a été sauvegardée"
+
+#: ./src/Controller/CommentaireController.php:59
+#: ./src/Controller/CommentaireController.php:84
+msgid "The commentaire could not be saved. Please, try again."
+msgstr "Le commentaire n'a pas été sauvegardé. Merci de réessayer."
+
+#: ./src/Controller/CommentaireController.php:102
+msgid "The commentaire has been deleted."
+msgstr "Le commentaire a été supprimée."
+
+#: ./src/Controller/CommentaireController.php:104
+msgid "The commentaire could not be deleted. Please, try again."
+msgstr "Le commentaire n'a pas été supprimé. Merci de réessayer."
+
+#: ./src/Controller/ConversationController.php:58
+#: ./src/Controller/ConversationController.php:84
+msgid "The conversation has been saved."
+msgstr ""
+
+#: ./src/Controller/ConversationController.php:62
+#: ./src/Controller/ConversationController.php:88
+msgid "The conversation could not be saved. Please, try again."
+msgstr ""
+
+#: ./src/Controller/ConversationController.php:107
+msgid "The conversation has been deleted."
+msgstr ""
+
+#: ./src/Controller/ConversationController.php:109
+msgid "The conversation could not be deleted. Please, try again."
+msgstr ""
+
+#: ./src/Controller/LikecommController.php:56
+#: ./src/Controller/LikecommController.php:81
+msgid "The likecomm has been saved."
+msgstr ""
+
+#: ./src/Controller/LikecommController.php:60
+#: ./src/Controller/LikecommController.php:85
+msgid "The likecomm could not be saved. Please, try again."
+msgstr ""
+
+#: ./src/Controller/LikecommController.php:103
+msgid "The likecomm has been deleted."
+msgstr ""
+
+#: ./src/Controller/LikecommController.php:105
+msgid "The likecomm could not be deleted. Please, try again."
+msgstr ""
+
+#: ./src/Controller/LikepubliController.php:55
+#: ./src/Controller/LikepubliController.php:79
+msgid "The likepubli has been saved."
+msgstr ""
+
+#: ./src/Controller/LikepubliController.php:59
+#: ./src/Controller/LikepubliController.php:83
+msgid "The likepubli could not be saved. Please, try again."
+msgstr ""
+
+#: ./src/Controller/LikepubliController.php:100
+msgid "The likepubli has been deleted."
+msgstr ""
+
+#: ./src/Controller/LikepubliController.php:102
+msgid "The likepubli could not be deleted. Please, try again."
+msgstr ""
+
+#: ./src/Controller/MessageController.php:55
+#: ./src/Controller/MessageController.php:80
+msgid "The message has been saved."
+msgstr ""
+
+#: ./src/Controller/MessageController.php:59
+#: ./src/Controller/MessageController.php:84
+msgid "The message could not be saved. Please, try again."
+msgstr ""
+
+#: ./src/Controller/MessageController.php:102
+msgid "The message has been deleted."
+msgstr ""
+
+#: ./src/Controller/MessageController.php:104
+msgid "The message could not be deleted. Please, try again."
+msgstr ""
+
+#: ./src/Controller/NotificationController.php:55
+#: ./src/Controller/NotificationController.php:80
+msgid "The notification has been saved."
+msgstr ""
+
+#: ./src/Controller/NotificationController.php:59
+#: ./src/Controller/NotificationController.php:84
+msgid "The notification could not be saved. Please, try again."
+msgstr ""
+
+#: ./src/Controller/NotificationController.php:102
+msgid "The notification has been deleted."
+msgstr ""
+
+#: ./src/Controller/NotificationController.php:104
+msgid "The notification could not be deleted. Please, try again."
+msgstr ""
+
+#: ./src/Controller/PublicationController.php:123
+#: ./src/Controller/PublicationController.php:163
+msgid "The publication has been saved."
+msgstr "La publication a été sauvegardée."
+
+#: ./src/Controller/PublicationController.php:127
+#: ./src/Controller/PublicationController.php:167
+msgid "The publication could not be saved. Please, try again."
+msgstr "La publication n'a pas été sauvegardée. Merci de réessayer."
+
+#: ./src/Controller/PublicationController.php:196
+msgid "The publication has been deleted."
+msgstr "La publication a été supprimée."
+
+#: ./src/Controller/PublicationController.php:198
+msgid "The publication could not be deleted. Please, try again."
+msgstr "La publication n'a pas été supprimée. Merci de réessayer."
+
+#: ./src/Controller/RelationController.php:55
+#: ./src/Controller/RelationController.php:80
+msgid "The relation has been saved."
+msgstr ""
+
+#: ./src/Controller/RelationController.php:59
+#: ./src/Controller/RelationController.php:84
+msgid "The relation could not be saved. Please, try again."
+msgstr ""
+
+#: ./src/Controller/RelationController.php:102
+msgid "The relation has been deleted."
+msgstr ""
+
+#: ./src/Controller/RelationController.php:104
+msgid "The relation could not be deleted. Please, try again."
+msgstr ""
+
+#: ./src/Controller/RessourcesController.php:58
+#: ./src/Controller/RessourcesController.php:84
+msgid "The ressource has been saved."
+msgstr "La ressource a été sauvegardée."
+
+#: ./src/Controller/RessourcesController.php:62
+#: ./src/Controller/RessourcesController.php:88
+msgid "The ressource could not be saved. Please, try again."
+msgstr "La ressource n'a pas été sauvegardée. Merci de réessayer."
+
+#: ./src/Controller/RessourcesController.php:107
+msgid "The ressource has been deleted."
+msgstr "La ressource a été supprimée."
+
+#: ./src/Controller/RessourcesController.php:109
+msgid "The ressource could not be deleted. Please, try again."
+msgstr "La ressource n'a pas été supprimée. Merci de réessayer."
+
+#: ./src/Controller/UsersController.php:57
+#: ./src/Controller/UsersController.php:82
+msgid "The user has been saved."
+msgstr "L'utilisateur a été sauvegardé."
+
+#: ./src/Controller/UsersController.php:61
+#: ./src/Controller/UsersController.php:86
+msgid "The user could not be saved. Please, try again."
+msgstr "L'utilisateur n'a pas été enregistré. Merci de réessayer."
+
+#: ./src/Controller/UsersController.php:104
+msgid "The user has been deleted."
+msgstr "L'utilisateur a été supprimé."
+
+#: ./src/Controller/UsersController.php:106
+msgid "The user could not be deleted. Please, try again."
+msgstr "L'utilisateur n'a pas été supprimé. Merci de réessayer."
+
+#: ./src/Controller/UsersController.php:132
+msgid "Invalid username or password"mot de 
+msgstr "Adresse e-mail ou passe invalide."
+
+#: ./templates/Categorie/add.php:10
+#: ./templates/Categorie/edit.php:10
+#: ./templates/Categorie/index.php:16
+#: ./templates/Categorie/view.php:10
+#: ./templates/Commentaire/add.php:10
+#: ./templates/Commentaire/edit.php:10
+#: ./templates/Commentaire/index.php:18
+#: ./templates/Commentaire/view.php:10
+#: ./templates/Conversation/add.php:10
+#: ./templates/Conversation/edit.php:10
+#: ./templates/Conversation/index.php:17
+#: ./templates/Conversation/view.php:10
+#: ./templates/Likecomm/add.php:10
+#: ./templates/Likecomm/edit.php:10
+#: ./templates/Likecomm/index.php:16
+#: ./templates/Likecomm/view.php:10
+#: ./templates/Likepubli/add.php:10
+#: ./templates/Likepubli/edit.php:10
+#: ./templates/Likepubli/index.php:16
+#: ./templates/Likepubli/view.php:10
+#: ./templates/Message/add.php:10
+#: ./templates/Message/edit.php:10
+#: ./templates/Message/index.php:18
+#: ./templates/Message/view.php:10
+#: ./templates/Notification/add.php:10
+#: ./templates/Notification/edit.php:10
+#: ./templates/Notification/index.php:19
+#: ./templates/Notification/view.php:10
+#: ./templates/Publication/add.php:10
+#: ./templates/Publication/edit.php:10
+#: ./templates/Relation/add.php:10
+#: ./templates/Relation/edit.php:10
+#: ./templates/Relation/index.php:17
+#: ./templates/Relation/view.php:10
+#: ./templates/Ressources/add.php:10
+#: ./templates/Ressources/edit.php:10
+#: ./templates/Ressources/index.php:16
+#: ./templates/Ressources/view.php:10
+#: ./templates/Users/edit.php:10
+#: ./templates/Users/index.php:29
+#: ./templates/Users/view.php:10
+msgid "Actions"
+msgstr ""
+
+#: ./templates/Categorie/add.php:11
+#: ./templates/Categorie/edit.php:16
+#: ./templates/Categorie/view.php:13
+msgid "List Categorie"
+msgstr ""
+
+#: ./templates/Categorie/add.php:18
+msgid "Add Categorie"
+msgstr ""
+
+#: ./templates/Categorie/add.php:23
+#: ./templates/Categorie/edit.php:28
+#: ./templates/Commentaire/add.php:25
+#: ./templates/Commentaire/edit.php:30
+#: ./templates/Conversation/add.php:24
+#: ./templates/Conversation/edit.php:29
+#: ./templates/Likecomm/add.php:22
+#: ./templates/Likecomm/edit.php:27
+#: ./templates/Likepubli/add.php:22
+#: ./templates/Likepubli/edit.php:27
+#: ./templates/Message/add.php:25
+#: ./templates/Message/edit.php:30
+#: ./templates/Notification/add.php:26
+#: ./templates/Notification/edit.php:31
+#: ./templates/Publication/add.php:29
+#: ./templates/Publication/edit.php:34
+#: ./templates/Relation/add.php:23
+#: ./templates/Relation/edit.php:28
+#: ./templates/Ressources/add.php:23
+#: ./templates/Ressources/edit.php:28
+#: ./templates/Users/edit.php:41
+msgid "Submit"
+msgstr ""
+
+#: ./templates/Categorie/edit.php:12
+#: ./templates/Categorie/index.php:27
+#: ./templates/Commentaire/edit.php:12
+#: ./templates/Commentaire/index.php:31
+#: ./templates/Conversation/edit.php:12
+#: ./templates/Conversation/index.php:29
+#: ./templates/Likecomm/edit.php:12
+#: ./templates/Likecomm/index.php:27
+#: ./templates/Likepubli/edit.php:12
+#: ./templates/Likepubli/index.php:27
+#: ./templates/Message/edit.php:12
+#: ./templates/Message/index.php:31
+#: ./templates/Notification/edit.php:12
+#: ./templates/Notification/index.php:33
+#: ./templates/Publication/edit.php:12
+#: ./templates/Relation/edit.php:12
+#: ./templates/Relation/index.php:29
+#: ./templates/Ressources/edit.php:12
+#: ./templates/Ressources/index.php:27
+#: ./templates/Users/edit.php:12
+#: ./templates/Users/index.php:53
+msgid "Delete"
+msgstr ""
+
+#: ./templates/Categorie/edit.php:14
+#: ./templates/Categorie/index.php:27
+#: ./templates/Categorie/view.php:12
+#: ./templates/Commentaire/edit.php:14
+#: ./templates/Commentaire/index.php:31
+#: ./templates/Commentaire/view.php:12
+#: ./templates/Conversation/edit.php:14
+#: ./templates/Conversation/index.php:29
+#: ./templates/Conversation/view.php:12
+#: ./templates/Likecomm/edit.php:14
+#: ./templates/Likecomm/index.php:27
+#: ./templates/Likecomm/view.php:12
+#: ./templates/Likepubli/edit.php:14
+#: ./templates/Likepubli/index.php:27
+#: ./templates/Likepubli/view.php:12
+#: ./templates/Message/edit.php:14
+#: ./templates/Message/index.php:31
+#: ./templates/Message/view.php:12
+#: ./templates/Notification/edit.php:14
+#: ./templates/Notification/index.php:33
+#: ./templates/Notification/view.php:12
+#: ./templates/Publication/edit.php:14
+#: ./templates/Relation/edit.php:14
+#: ./templates/Relation/index.php:29
+#: ./templates/Relation/view.php:12
+#: ./templates/Ressources/edit.php:14
+#: ./templates/Ressources/index.php:27
+#: ./templates/Ressources/view.php:12
+#: ./templates/Users/edit.php:14
+#: ./templates/Users/index.php:53
+#: ./templates/Users/view.php:12
+msgid "Are you sure you want to delete # {0}?"
+msgstr ""
+
+#: ./templates/Categorie/edit.php:23
+#: ./templates/Categorie/view.php:11
+msgid "Edit Categorie"
+msgstr ""
+
+#: ./templates/Categorie/index.php:8
+#: ./templates/Categorie/view.php:14
+msgid "New Categorie"
+msgstr ""
+
+#: ./templates/Categorie/index.php:9
+msgid "Categorie"
+msgstr ""
+
+#: ./templates/Categorie/index.php:25
+#: ./templates/Commentaire/index.php:29
+#: ./templates/Conversation/index.php:27
+#: ./templates/Likecomm/index.php:25
+#: ./templates/Likepubli/index.php:25
+#: ./templates/Message/index.php:29
+#: ./templates/Notification/index.php:31
+#: ./templates/Relation/index.php:27
+#: ./templates/Ressources/index.php:25
+#: ./templates/Users/index.php:51
+msgid "View"
+msgstr ""
+
+#: ./templates/Categorie/index.php:26
+#: ./templates/Commentaire/index.php:30
+#: ./templates/Conversation/index.php:28
+#: ./templates/Likecomm/index.php:26
+#: ./templates/Likepubli/index.php:26
+#: ./templates/Message/index.php:30
+#: ./templates/Notification/index.php:32
+#: ./templates/Relation/index.php:28
+#: ./templates/Ressources/index.php:26
+#: ./templates/Users/index.php:52
+msgid "Edit"
+msgstr ""
+
+#: ./templates/Categorie/index.php:36
+#: ./templates/Commentaire/index.php:40
+#: ./templates/Conversation/index.php:38
+#: ./templates/Likecomm/index.php:36
+#: ./templates/Likepubli/index.php:36
+#: ./templates/Message/index.php:40
+#: ./templates/Notification/index.php:42
+#: ./templates/Relation/index.php:38
+#: ./templates/Ressources/index.php:36
+#: ./templates/Users/index.php:62
+msgid "first"
+msgstr ""
+
+#: ./templates/Categorie/index.php:37
+#: ./templates/Commentaire/index.php:41
+#: ./templates/Conversation/index.php:39
+#: ./templates/Likecomm/index.php:37
+#: ./templates/Likepubli/index.php:37
+#: ./templates/Message/index.php:41
+#: ./templates/Notification/index.php:43
+#: ./templates/Relation/index.php:39
+#: ./templates/Ressources/index.php:37
+#: ./templates/Users/index.php:63
+msgid "previous"
+msgstr ""
+
+#: ./templates/Categorie/index.php:39
+#: ./templates/Commentaire/index.php:43
+#: ./templates/Conversation/index.php:41
+#: ./templates/Likecomm/index.php:39
+#: ./templates/Likepubli/index.php:39
+#: ./templates/Message/index.php:43
+#: ./templates/Notification/index.php:45
+#: ./templates/Relation/index.php:41
+#: ./templates/Ressources/index.php:39
+#: ./templates/Users/index.php:65
+msgid "next"
+msgstr ""
+
+#: ./templates/Categorie/index.php:40
+#: ./templates/Commentaire/index.php:44
+#: ./templates/Conversation/index.php:42
+#: ./templates/Likecomm/index.php:40
+#: ./templates/Likepubli/index.php:40
+#: ./templates/Message/index.php:44
+#: ./templates/Notification/index.php:46
+#: ./templates/Relation/index.php:42
+#: ./templates/Ressources/index.php:40
+#: ./templates/Users/index.php:66
+msgid "last"
+msgstr ""
+
+#: ./templates/Categorie/index.php:42
+#: ./templates/Commentaire/index.php:46
+#: ./templates/Conversation/index.php:44
+#: ./templates/Likecomm/index.php:42
+#: ./templates/Likepubli/index.php:42
+#: ./templates/Message/index.php:46
+#: ./templates/Notification/index.php:48
+#: ./templates/Relation/index.php:44
+#: ./templates/Ressources/index.php:42
+#: ./templates/Users/index.php:68
+msgid "Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total"
+msgstr ""
+
+#: ./templates/Categorie/view.php:12
+msgid "Delete Categorie"
+msgstr ""
+
+#: ./templates/Categorie/view.php:22
+msgid "Nom Categ"
+msgstr ""
+
+#: ./templates/Categorie/view.php:26
+msgid "Id Categ"
+msgstr ""
+
+#: ./templates/Commentaire/add.php:11
+#: ./templates/Commentaire/edit.php:16
+#: ./templates/Commentaire/view.php:13
+msgid "List Commentaire"
+msgstr ""
+
+#: ./templates/Commentaire/add.php:18
+msgid "Add Commentaire"
+msgstr ""
+
+#: ./templates/Commentaire/edit.php:23
+#: ./templates/Commentaire/view.php:11
+msgid "Edit Commentaire"
+msgstr ""
+
+#: ./templates/Commentaire/index.php:8
+#: ./templates/Commentaire/view.php:14
+msgid "New Commentaire"
+msgstr ""
+
+#: ./templates/Commentaire/index.php:9
+msgid "Commentaire"
+msgstr ""
+
+#: ./templates/Commentaire/view.php:12
+msgid "Delete Commentaire"
+msgstr ""
+
+#: ./templates/Commentaire/view.php:22
+msgid "Contenu Comm"
+msgstr ""
+
+#: ./templates/Commentaire/view.php:26
+#: ./templates/Likecomm/view.php:26
+msgid "Id Comm"
+msgstr ""
+
+#: ./templates/Commentaire/view.php:30
+#: ./templates/Likepubli/view.php:26
+msgid "Id Publi"
+msgstr ""
+
+#: ./templates/Commentaire/view.php:34
+msgid "Date Comm"
+msgstr ""
+
+#: ./templates/Conversation/add.php:11
+#: ./templates/Conversation/edit.php:16
+#: ./templates/Conversation/view.php:13
+msgid "List Conversation"
+msgstr ""
+
+#: ./templates/Conversation/add.php:18
+msgid "Add Conversation"
+msgstr ""
+
+#: ./templates/Conversation/edit.php:23
+#: ./templates/Conversation/view.php:11
+msgid "Edit Conversation"
+msgstr ""
+
+#: ./templates/Conversation/index.php:8
+#: ./templates/Conversation/view.php:14
+msgid "New Conversation"
+msgstr ""
+
+#: ./templates/Conversation/index.php:9
+msgid "Conversation"
+msgstr ""
+
+#: ./templates/Conversation/view.php:12
+msgid "Delete Conversation"
+msgstr ""
+
+#: ./templates/Conversation/view.php:22
+msgid "Nom Conver"
+msgstr ""
+
+#: ./templates/Conversation/view.php:26
+#: ./templates/Message/view.php:30
+msgid "Id Conver"
+msgstr ""
+
+#: ./templates/Conversation/view.php:30
+#: ./templates/Likecomm/view.php:22
+#: ./templates/Likepubli/view.php:22
+#: ./templates/Notification/view.php:34
+#: ./templates/Relation/view.php:26
+#: ./templates/Users/view.php:66
+msgid "Id User"
+msgstr ""
+
+#: ./templates/Likecomm/add.php:11
+#: ./templates/Likecomm/edit.php:16
+#: ./templates/Likecomm/view.php:13
+msgid "List Likecomm"
+msgstr ""
+
+#: ./templates/Likecomm/add.php:18
+msgid "Add Likecomm"
+msgstr ""
+
+#: ./templates/Likecomm/edit.php:23
+#: ./templates/Likecomm/view.php:11
+msgid "Edit Likecomm"
+msgstr ""
+
+#: ./templates/Likecomm/index.php:8
+#: ./templates/Likecomm/view.php:14
+msgid "New Likecomm"
+msgstr ""
+
+#: ./templates/Likecomm/index.php:9
+msgid "Likecomm"
+msgstr ""
+
+#: ./templates/Likecomm/view.php:12
+msgid "Delete Likecomm"
+msgstr ""
+
+#: ./templates/Likepubli/add.php:11
+#: ./templates/Likepubli/edit.php:16
+#: ./templates/Likepubli/view.php:13
+msgid "List Likepubli"
+msgstr ""
+
+#: ./templates/Likepubli/add.php:18
+msgid "Add Likepubli"
+msgstr ""
+
+#: ./templates/Likepubli/edit.php:23
+#: ./templates/Likepubli/view.php:11
+msgid "Edit Likepubli"
+msgstr ""
+
+#: ./templates/Likepubli/index.php:8
+#: ./templates/Likepubli/view.php:14
+msgid "New Likepubli"
+msgstr ""
+
+#: ./templates/Likepubli/index.php:9
+msgid "Likepubli"
+msgstr ""
+
+#: ./templates/Likepubli/view.php:12
+msgid "Delete Likepubli"
+msgstr ""
+
+#: ./templates/Message/add.php:11
+#: ./templates/Message/edit.php:16
+#: ./templates/Message/view.php:13
+msgid "List Message"
+msgstr ""
+
+#: ./templates/Message/add.php:18
+msgid "Add Message"
+msgstr ""
+
+#: ./templates/Message/edit.php:23
+#: ./templates/Message/view.php:11
+msgid "Edit Message"
+msgstr ""
+
+#: ./templates/Message/index.php:8
+#: ./templates/Message/view.php:14
+msgid "New Message"
+msgstr ""
+
+#: ./templates/Message/index.php:9
+msgid "Message"
+msgstr ""
+
+#: ./templates/Message/view.php:12
+msgid "Delete Message"
+msgstr ""
+
+#: ./templates/Message/view.php:22
+msgid "Contenu Message"
+msgstr ""
+
+#: ./templates/Message/view.php:26
+#: ./templates/Notification/view.php:30
+msgid "Id Message"
+msgstr ""
+
+#: ./templates/Message/view.php:34
+msgid "Date Message"
+msgstr ""
+
+#: ./templates/Notification/add.php:11
+#: ./templates/Notification/edit.php:16
+#: ./templates/Notification/view.php:13
+msgid "List Notification"
+msgstr ""
+
+#: ./templates/Notification/add.php:18
+msgid "Add Notification"
+msgstr ""
+
+#: ./templates/Notification/edit.php:23
+#: ./templates/Notification/view.php:11
+msgid "Edit Notification"
+msgstr ""
+
+#: ./templates/Notification/index.php:8
+#: ./templates/Notification/view.php:14
+msgid "New Notification"
+msgstr ""
+
+#: ./templates/Notification/index.php:9
+msgid "Notification"
+msgstr ""
+
+#: ./templates/Notification/view.php:12
+msgid "Delete Notification"
+msgstr ""
+
+#: ./templates/Notification/view.php:22
+msgid "Nom Notif"
+msgstr ""
+
+#: ./templates/Notification/view.php:26
+msgid "Id Notif"
+msgstr ""
+
+#: ./templates/Notification/view.php:38
+msgid "Date Notif"
+msgstr ""
+
+#: ./templates/Publication/add.php:11
+#: ./templates/Publication/edit.php:16
+msgid "List Publication"
+msgstr ""
+
+#: ./templates/Publication/add.php:18
+msgid "Ajouter une publication"
+msgstr ""
+
+#: ./templates/Publication/edit.php:23
+msgid "Edit Publication"
+msgstr ""
+
+#: ./templates/Publication/index.php:14
+msgid "Créer une nouvelle publication"
+msgstr ""
+
+#: ./templates/Publication/index.php:15
+msgid "Bonjour "
+msgstr ""
+
+#: ./templates/Relation/add.php:11
+#: ./templates/Relation/edit.php:16
+#: ./templates/Relation/view.php:13
+msgid "List Relation"
+msgstr ""
+
+#: ./templates/Relation/add.php:18
+msgid "Add Relation"
+msgstr ""
+
+#: ./templates/Relation/edit.php:23
+#: ./templates/Relation/view.php:11
+msgid "Edit Relation"
+msgstr ""
+
+#: ./templates/Relation/index.php:8
+#: ./templates/Relation/view.php:14
+msgid "New Relation"
+msgstr ""
+
+#: ./templates/Relation/index.php:9
+msgid "Relation"
+msgstr ""
+
+#: ./templates/Relation/view.php:12
+msgid "Delete Relation"
+msgstr ""
+
+#: ./templates/Relation/view.php:22
+msgid "Statut"
+msgstr ""
+
+#: ./templates/Relation/view.php:30
+msgid "Id User 1"
+msgstr ""
+
+#: ./templates/Ressources/add.php:11
+#: ./templates/Ressources/edit.php:16
+#: ./templates/Ressources/view.php:13
+msgid "List Ressources"
+msgstr ""
+
+#: ./templates/Ressources/add.php:18
+msgid "Add Ressource"
+msgstr ""
+
+#: ./templates/Ressources/edit.php:23
+#: ./templates/Ressources/view.php:11
+msgid "Edit Ressource"
+msgstr ""
+
+#: ./templates/Ressources/index.php:8
+#: ./templates/Ressources/view.php:14
+msgid "New Ressource"
+msgstr ""
+
+#: ./templates/Ressources/index.php:9
+msgid "Ressources"
+msgstr ""
+
+#: ./templates/Ressources/view.php:12
+msgid "Delete Ressource"
+msgstr ""
+
+#: ./templates/Ressources/view.php:22
+msgid "Nom Ress"
+msgstr ""
+
+#: ./templates/Ressources/view.php:26
+msgid "Id Ress"
+msgstr ""
+
+#: ./templates/Users/add.php:36
+msgid "S'enregistrer"
+msgstr ""
+
+#: ./templates/Users/edit.php:16
+#: ./templates/Users/view.php:13
+msgid "List Users"
+msgstr ""
+
+#: ./templates/Users/edit.php:23
+#: ./templates/Users/view.php:11
+msgid "Edit User"
+msgstr ""
+
+#: ./templates/Users/index.php:8
+#: ./templates/Users/view.php:14
+msgid "New User"
+msgstr ""
+
+#: ./templates/Users/index.php:9
+msgid "Users"
+msgstr ""
+
+#: ./templates/Users/login.php:14
+msgid "Connexion"
+msgstr ""
+
+#: ./templates/Users/view.php:12
+msgid "Delete User"
+msgstr ""
+
+#: ./templates/Users/view.php:22
+msgid "Nom User"
+msgstr ""
+
+#: ./templates/Users/view.php:26
+msgid "Prenom User"
+msgstr ""
+
+#: ./templates/Users/view.php:30
+msgid "Sexe User"
+msgstr ""
+
+#: ./templates/Users/view.php:34
+msgid "Num Rue User"
+msgstr ""
+
+#: ./templates/Users/view.php:38
+msgid "Rue User"
+msgstr ""
+
+#: ./templates/Users/view.php:42
+msgid "Cp User"
+msgstr ""
+
+#: ./templates/Users/view.php:46
+msgid "Ville User"
+msgstr ""
+
+#: ./templates/Users/view.php:50
+msgid "Num Tel User"
+msgstr ""
+
+#: ./templates/Users/view.php:54
+msgid "Email User"
+msgstr ""
+
+#: ./templates/Users/view.php:58
+msgid "Mdp User"
+msgstr ""
+
+#: ./templates/Users/view.php:62
+msgid "Situation Familial User"
+msgstr ""
+
+#: ./templates/Users/view.php:70
+msgid "Id Role User"
+msgstr ""
+
+#: ./templates/Users/view.php:74
+msgid "Date Naissance User"
+msgstr ""
+
+#: ./templates/Users/view.php:78
+msgid "Cgu Consent User"
+msgstr ""
+
+#: ./templates/Users/view.php:79
+msgid "Yes"
+msgstr ""
+
+#: ./templates/Users/view.php:79
+msgid "No"
+msgstr ""
+
+#: ./templates/layout/error.php:38
+msgid "Back"
+msgstr ""
+
+#: Template/Error/error400.ctp:36 Template/Error/error500.ctp:41
+msgid "Error"
+msgstr "Erreur"
+
+#: Template/Error/error400.ctp:37
+msgid "The requested address {0} was not found on this server."
+msgstr "L'adresse demandée {0} n'a pas été trouvée sur ce serveur."
+
+#: Template/Error/error500.ctp:39
+msgid "An Internal Error Has Occurred"
+msgstr "Une Erreur Interne s'est produite"
+
+#: Controller/Component/AuthComponent.php:496
+msgid "You are not authorized to access that location."
+msgstr "Vous n'êtes pas autorisé à accéder à cet endroit."
+
+#: Controller/Component/CsrfComponent.php:155
+msgid "Missing CSRF token cookie"
+msgstr "Il manque le Cookie avec le token CSRF"
+
+#: Controller/Component/CsrfComponent.php:159
+msgid "CSRF token mismatch."
+msgstr "Le token CRSF ne correspond pas."
+
+#: Error/ExceptionRenderer.php:258
+msgid "Not Found"
+msgstr "Non trouvé"
+
+#: Error/ExceptionRenderer.php:260
+msgid "An Internal Error Has Occurred."
+msgstr "Une Erreur Interne s'est produite."
+
+#: Http/Response.php:2259
+msgid "The requested file contains `..` and will not be read."
+msgstr "Le fichier demandé contient `..` et ne sera pas lu."
+
+#: Http/Response.php:2270
+msgid "The requested file was not found"
+msgstr "Le fichier demandé n'a pas été trouvé"
+
+#: I18n/Number.php:90
+msgid "{0,number,#,###.##} KB"
+msgstr "{0,number,#,###.##} KB"
+
+#: I18n/Number.php:92
+msgid "{0,number,#,###.##} MB"
+msgstr "{0,number,#,###.##} MB"
+
+#: I18n/Number.php:94
+msgid "{0,number,#,###.##} GB"
+msgstr "{0,number,#,###.##} GB"
+
+#: I18n/Number.php:96
+msgid "{0,number,#,###.##} TB"
+msgstr "{0,number,#,###.##} TB"
+
+#: I18n/Number.php:88
+msgid "{0,number,integer} Byte"
+msgid_plural "{0,number,integer} Bytes"
+msgstr[0] "{0,number,integer} Octet"
+msgstr[1] "{0,number,integer} Octets"
+
+#: I18n/RelativeTimeFormatter.php:80
+msgid "{0} from now"
+msgstr "{0} à partir de maintenant"
+
+#: I18n/RelativeTimeFormatter.php:80
+msgid "{0} ago"
+msgstr "il y a {0}"
+
+#: I18n/RelativeTimeFormatter.php:83
+msgid "{0} after"
+msgstr "{0} après"
+
+#: I18n/RelativeTimeFormatter.php:83
+msgid "{0} before"
+msgstr "{0} avant"
+
+#: I18n/RelativeTimeFormatter.php:114
+msgid "just now"
+msgstr "À l'instant"
+
+#: I18n/RelativeTimeFormatter.php:151
+msgid "about a second ago"
+msgstr "il y a environ une seconde"
+
+#: I18n/RelativeTimeFormatter.php:152
+msgid "about a minute ago"
+msgstr "il y a environ une minute"
+
+#: I18n/RelativeTimeFormatter.php:153
+msgid "about an hour ago"
+msgstr "il y a environ une heure"
+
+#: I18n/RelativeTimeFormatter.php:154;332
+msgid "about a day ago"
+msgstr "il y a environ un jour"
+
+#: I18n/RelativeTimeFormatter.php:155;333
+msgid "about a week ago"
+msgstr "il y a environ une semaine"
+
+#: I18n/RelativeTimeFormatter.php:156;334
+msgid "about a month ago"
+msgstr "il y a environ un mois"
+
+#: I18n/RelativeTimeFormatter.php:157;335
+msgid "about a year ago"
+msgstr "il y a environ un an"
+
+#: I18n/RelativeTimeFormatter.php:168
+msgid "in about a second"
+msgstr "dans environ une seconde"
+
+#: I18n/RelativeTimeFormatter.php:169
+msgid "in about a minute"
+msgstr "dans environ une minute"
+
+#: I18n/RelativeTimeFormatter.php:170
+msgid "in about an hour"
+msgstr "dans environ une heure"
+
+#: I18n/RelativeTimeFormatter.php:171;346
+msgid "in about a day"
+msgstr "dans environ un jour"
+
+#: I18n/RelativeTimeFormatter.php:172;347
+msgid "in about a week"
+msgstr "dans environ une semaine"
+
+#: I18n/RelativeTimeFormatter.php:173;348
+msgid "in about a month"
+msgstr "dans environ un mois"
+
+#: I18n/RelativeTimeFormatter.php:174;349
+msgid "in about a year"
+msgstr "dans environ un an"
+
+#: I18n/RelativeTimeFormatter.php:304
+msgid "today"
+msgstr "aujourd'hui"
+
+#: I18n/RelativeTimeFormatter.php:370
+msgid "%s ago"
+msgstr "il y a %s"
+
+#: I18n/RelativeTimeFormatter.php:371
+msgid "on %s"
+msgstr "Le %s"
+
+#: I18n/RelativeTimeFormatter.php:47;126;316
+msgid "{0} year"
+msgid_plural "{0} years"
+msgstr[0] "{0} année"
+msgstr[1] "{0} années"
+
+#: I18n/RelativeTimeFormatter.php:51;129;319
+msgid "{0} month"
+msgid_plural "{0} months"
+msgstr[0] "{0} mois"
+msgstr[1] "{0} mois"
+
+#: I18n/RelativeTimeFormatter.php:57;132;322
+msgid "{0} week"
+msgid_plural "{0} weeks"
+msgstr[0] "{0} semaine"
+msgstr[1] "{0} semaines"
+
+#: I18n/RelativeTimeFormatter.php:59;135;325
+msgid "{0} day"
+msgid_plural "{0} days"
+msgstr[0] "{0} jour"
+msgstr[1] "{0} jours"
+
+#: I18n/RelativeTimeFormatter.php:64;138
+msgid "{0} hour"
+msgid_plural "{0} hours"
+msgstr[0] "{0} heure"
+msgstr[1] "{0} heures"
+
+#: I18n/RelativeTimeFormatter.php:68;141
+msgid "{0} minute"
+msgid_plural "{0} minutes"
+msgstr[0] "{0} minute"
+msgstr[1] "{0} minutes"
+
+#: I18n/RelativeTimeFormatter.php:72;144
+msgid "{0} second"
+msgid_plural "{0} seconds"
+msgstr[0] "{0} seconde"
+msgstr[1] "{0} secondes"
+
+#: ORM/RulesChecker.php:57
+msgid "This value is already in use"
+msgstr "Cette valeur est déjà utilisée"
+
+#: ORM/RulesChecker.php:104
+msgid "This value does not exist"
+msgstr "Cette valeur n'existe pas"
+
+#: ORM/RulesChecker.php:128
+msgid "The count does not match {0}{1}"
+msgstr "The count does not match {0}{1}"
+
+#: Utility/Text.php:899
+msgid "and"
+msgstr "et"
+
+#: Validation/Validator.php:103
+msgid "This field is required"
+msgstr "Ce champ est requis"
+
+#: Validation/Validator.php:104
+msgid "This field cannot be left empty"
+msgstr "Ce champ ne peut être laissé vide"
+
+#: Validation/Validator.php:1782
+msgid "The provided value is invalid"
+msgstr "La valeur fournie n'est pas correcte"
+
+#: View/Helper/FormHelper.php:1008
+msgid "New %s"
+msgstr "Nouveau %s"
+
+#: View/Helper/FormHelper.php:1011
+msgid "Edit %s"
+msgstr "Modifier %s"
+
+#: View/Helper/FormHelper.php:1887
+msgid "Submit"
+msgstr "Envoyer"
+
+#: View/Helper/HtmlHelper.php:793
+msgid "Home"
+msgstr "Accueil"
+
+#: View/Widget/DateTimeWidget.php:540
+msgid "January"
+msgstr "Janvier"
+
+#: View/Widget/DateTimeWidget.php:541
+msgid "February"
+msgstr "Février"
+
+#: View/Widget/DateTimeWidget.php:542
+msgid "March"
+msgstr "Mars"
+
+#: View/Widget/DateTimeWidget.php:543
+msgid "April"
+msgstr "Avril"
+
+#: View/Widget/DateTimeWidget.php:544
+msgid "May"
+msgstr "Mai"
+
+#: View/Widget/DateTimeWidget.php:545
+msgid "June"
+msgstr "Juin"
+
+#: View/Widget/DateTimeWidget.php:546
+msgid "July"
+msgstr "Juillet"
+
+#: View/Widget/DateTimeWidget.php:547
+msgid "August"
+msgstr "Août"
+
+#: View/Widget/DateTimeWidget.php:548
+msgid "September"
+msgstr "Septembre"
+
+#: View/Widget/DateTimeWidget.php:549
+msgid "October"
+msgstr "Octobre"
+
+#: View/Widget/DateTimeWidget.php:550
+msgid "November"
+msgstr "Novembre"
+
+#: View/Widget/DateTimeWidget.php:551
+msgid "December"
+msgstr "Décembre"
+
