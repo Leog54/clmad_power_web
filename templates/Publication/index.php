@@ -25,14 +25,14 @@ use function PHPUnit\Framework\isEmpty;
                     <?php $datePublication = new FrozenTime($publication->date_publi); ?>
                     <p><?= h(__($datePublication->timeAgoInWords(['format' => 'd MMM YYY', 'end' => '+6 month']))) ?></p>
                     <p><?= h($publication->contenu_publi) ?></p>
-                    <?php if ($publication->link_img_publi != "") { echo $this->Html->image($publication->link_img_publi, ['class' => 'imagePubli']); } ?>
+                    <?php if ($publication->link_img_publi != "") { echo $this->Html->link($this->Html->image($publication->link_img_publi, ['class' => 'imagePubli']), "/publication/view/".$publication->id_publi."", ["escape" => false]) ; } ?>
                 </div>
                 <div class="actions">
                     <div class="like">
                         <?= $this->Html->link("J'aime", ['class' => 'likeButton']) ?>
                     </div>
                     <div class="commentaire">
-                        <?= $this->Html->link("Commenter", ['class' => 'commentButton', 'controller' => 'Likecomm', 'action' => 'add']) ?>
+                        <?= $this->Html->link("Commenter", ['class' => 'commentButton', 'action' => 'view', $publication->id_publi]) ?>
                     </div>
                     <div class="share">
                         <?= $this->Html->link("Partager", ['class' => 'shareButton']) ?>

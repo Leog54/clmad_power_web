@@ -20,15 +20,15 @@
         <div class="publication form content">
             <?= $this->Form->create($publication) ?>
             <fieldset>
-                <legend><?= __('Edit Publication') ?></legend>
+                <legend><?= __('Modifier la publication') ?></legend>
                 <?php
                     echo $this->Form->textarea('contenu_publi', ['label' => 'Contenu :', 'rows' => '3']);
-                    echo $this->Form->control('link_img_publi');
-                    echo $this->Form->control('link_pj_publi', ['type' => 'file']);
-                    echo $this->Form->control('id_categ', ['options' => $categories]);
+                    echo $this->Form->control('link_img_publi', ['label' => 'Lien de l\'image :']);
+                    echo $this->Form->control('link_pj_publi', ['type' => 'file', 'label' => 'Lien de la pièce jointe :']);
+                    echo $this->Form->control('id_categ', ['options' => $categories, 'label' => 'Catégorie :']);
                     echo $this->Form->control('id_user', ['type' => 'hidden', 'value' => $userId]);
                     echo "<label>Visibilité</label>";  
-                    echo $this->Form->radio('visi', ['Privé','Amis','Tout le monde']);
+                    echo $this->Form->radio('visi', ['Privée','Amis','Tout le monde']);
                 ?>
             </fieldset>
             <?= $this->Form->button(__('Submit')) ?>

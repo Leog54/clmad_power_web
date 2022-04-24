@@ -30,8 +30,9 @@ class PublicationPolicy
      * @param App\Model\Entity\Publication $publication
      * @return bool
      */
-    public function canUpdate(IdentityInterface $user, Publication $publication)
+    public function canEdit(IdentityInterface $user, Publication $publication)
     {
+        return true;
     }
 
     /**

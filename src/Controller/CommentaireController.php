@@ -18,6 +18,7 @@ class CommentaireController extends AppController
      */
     public function index()
     {
+        $this->Authorization->skipAuthorization();
         $commentaire = $this->paginate($this->Commentaire);
 
         $this->set(compact('commentaire'));
@@ -33,6 +34,7 @@ class CommentaireController extends AppController
      */
     public function view($id = null)
     {
+        $this->Authorization->skipAuthorization();
         $commentaire = $this->Commentaire->get($id, [
             'contain' => [],
         ]);
@@ -46,18 +48,25 @@ class CommentaireController extends AppController
      *
      * @return \Cake\Http\Response|null|void Redirects on successful add, renders view otherwise.
      */
-    public function add()
+    public function add($id)
     {
         $commentaire = $this->Commentaire->newEmptyEntity();
+        $this->Authorization->authorize($commentaire);
+        $user = $this->Authentication->getIdentity();
+        $userId = $user->id_user;
+
         if ($this->request->is('post')) {
             $commentaire = $this->Commentaire->patchEntity($commentaire, $this->request->getData());
+            debug($commentaire);
             if ($this->Commentaire->save($commentaire)) {
                 $this->Flash->success(__('The commentaire has been saved.'));
 
-                return $this->redirect(['action' => 'index']);
+                return $this->redirect(['controller' => 'publication', 'action' => 'view', $id]);
             }
             $this->Flash->error(__('The commentaire could not be saved. Please, try again.'));
         }
+
+        $this->set(compact('userId'));
         $this->set(compact('commentaire'));
         $this->viewBuilder()->setOption('serialize', 'commentaire');
     }
@@ -74,6 +83,7 @@ class CommentaireController extends AppController
         $commentaire = $this->Commentaire->get($id, [
             'contain' => [],
         ]);
+        $this->Authorization->authorize($commentaire);
         if ($this->request->is(['patch', 'post', 'put'])) {
             $commentaire = $this->Commentaire->patchEntity($commentaire, $this->request->getData());
             if ($this->Commentaire->save($commentaire)) {
@@ -98,6 +108,7 @@ class CommentaireController extends AppController
     {
         $this->request->allowMethod(['post', 'delete']);
         $commentaire = $this->Commentaire->get($id);
+        $this->Authorization->authorize($commentaire);
         if ($this->Commentaire->delete($commentaire)) {
             $this->Flash->success(__('The commentaire has been deleted.'));
         } else {

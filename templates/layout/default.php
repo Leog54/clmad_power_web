@@ -39,7 +39,7 @@ $cakeDescription = 'Ressources Relationnelles';
 </head>
     <header>
         <div class="logo">
-            <img src="/clmad_app/webroot/img/logo.png" alt="logoNav">
+            <?= $this->Html->link($this->Html->image("logo.png", ["alt" => "logoNav"]), "/publication/index", ["escape" => false]); ?>
         </div>
         <?php if (!isset($_SESSION['Auth']['id_user'])): ?>
             <ul class="ressources">
