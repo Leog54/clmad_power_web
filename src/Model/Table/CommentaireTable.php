@@ -41,6 +41,13 @@ class CommentaireTable extends Table
         $this->setDisplayField('id_comm');
         $this->setPrimaryKey('id_comm');
         $this->belongsTo('Publication');
+        $this->addBehavior('Timestamp', [
+            'events' => [
+                'Model.beforeSave' => [
+                    'date_comm' => 'new',
+                ]
+            ]
+            ]);
     }
 
     /**
@@ -60,11 +67,6 @@ class CommentaireTable extends Table
             ->maxLength('contenu_comm', 750)
             ->requirePresence('contenu_comm', 'create')
             ->notEmptyString('contenu_comm');
-
-        $validator
-            ->dateTime('date_comm')
-            ->requirePresence('date_comm', 'create')
-            ->notEmptyDateTime('date_comm');
 
         $validator
             ->integer('id_publi')

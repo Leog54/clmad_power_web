@@ -4,6 +4,7 @@ declare(strict_types=1);
 namespace App\Controller;
 
 use App\Model\Entity\Categorie;
+use Cake\ORM\TableRegistry;
 
 /**
  * Publication Controller
@@ -86,6 +87,19 @@ class PublicationController extends AppController
         $result3 = $query3->all();
         $categorie = $result3->toArray();
 
+            $commentaireTable = TableRegistry::getTableLocator()->get('Commentaire');
+            $newCommentaire = $commentaireTable->newEntity($this->request->getData());
+            $commentaire = $commentaireTable->patchEntity($newCommentaire, $this->request->getData());
+            if (!$commentaire->isEmpty('contenu_comm')) {
+                if ($commentaireTable->save($commentaire)) {
+                    $this->Flash->success(__('Le commentaire a été ajouté avec succès.'));
+                }
+                else {
+                    $this->Flash->error(__('Le commentaire n\'a pas été enregistré. Merci de réessayer.'));
+                }
+                $this->redirect($this->referer());
+            } 
+
         $this->set(compact('publication'));
         $this->set(compact('user'));
         $this->set(compact('commentaires'));
@@ -149,12 +163,14 @@ class PublicationController extends AppController
      * @return \Cake\Http\Response|null|void Redirects on successful edit, renders view otherwise.
      * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
      */
-    public function edit($id = null)
+    public function edit($id)
     {
         $publication = $this->Publication->get($id, [
             'contain' => [],
         ]);
         $this->Authorization->authorize($publication);
+        $user = $this->Authentication->getIdentity();
+        $userId = $user->id_user;
         if ($this->request->is(['patch', 'post', 'put'])) {
             $publication = $this->Publication->patchEntity($publication, $this->request->getData(), [
                 'accessibleFields' => ['id_user' => false]
@@ -177,6 +193,7 @@ class PublicationController extends AppController
 
         $this->set(compact('categories'));
         $this->set(compact('publication'));
+        $this->set(compact('userId'));
         $this->viewBuilder()->setOption('serialize', 'publication');
     }
 

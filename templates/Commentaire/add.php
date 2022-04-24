@@ -15,14 +15,13 @@
         <div class="commentaire form content">
             <?= $this->Form->create($commentaire) ?>
             <fieldset>
-                <legend><?= __('Add Commentaire') ?></legend>
+                <legend><?= __('Ajouter un commentaire') ?></legend>
                 <?php
                     echo $this->Form->control('contenu_comm');
-                    echo $this->Form->control('date_comm');
-                    echo $this->Form->control('id_publi');
+                    echo $this->Form->control('id_publi', ['type' => 'hidden', 'value' => $publication->id_publi]);
                 ?>
             </fieldset>
-            <?= $this->Form->button(__('Submit')) ?>
+            <?= $this->Form->button(__('Ajouter')) ?>
             <?= $this->Form->end() ?>
         </div>
     </div>
