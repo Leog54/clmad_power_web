@@ -22,7 +22,7 @@ header{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color: rgba(129, 170, 123, 0.29);
+    background-color: rgb(218 230 217);
     height: 100px;
 }
 
@@ -37,14 +37,14 @@ header ul li {
     margin-right: 25px;
 }
 
-header ul.users li {
+header ul.user li {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
 
-header ul.users li a{
+header ul.user li a{
     background-color: transparent;
     color: #000;
     display: inline-flex;
@@ -52,7 +52,7 @@ header ul.users li a{
     padding: 0;
 }
 
-header ul.users li img{
+header ul.user li img{
     width: 50px;
     height: auto;
     margin-right: 10px;
@@ -313,10 +313,32 @@ fieldset{
 
 .add .connForm {
     margin-top: 170px;
-    }
+}
 
 @media (max-width: 900px) {
-.add .connForm {
-    margin-top: 170px;
+    .add .connForm {
+        margin-top: 170px;
     }
+}
+
+.view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:start;
+}
+
+.view .avatar{
+    margin-top: 115px;
+}
+
+.view .edit {
+    margin-top: 30px;
+}
+
+.view .edit a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #03989E;
+    padding: 20px;
 }

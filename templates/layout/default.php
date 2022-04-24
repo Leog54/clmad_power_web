@@ -46,8 +46,8 @@ $cakeDescription = 'Ressources Relationnelles';
                 <li><a href="ressources">Accès aux ressources</a></li>
             </ul>
         <?php else: ?>
-            <ul class="users">
-                <li><a href="users/view/<?= $_SESSION['Auth']['id_user'] ?>"><img src="/clmad_app/webroot/img/thumbnail_a1_f1769e813a.png" alt="avatar"><?= $_SESSION['Auth']['prenom_user']." ".$_SESSION['Auth']['nom_user']?></a></li>
+            <ul class="user">
+                <li><a href="/clmad_app/users/view/<?= $_SESSION['Auth']['id_user'] ?>"><img src="/clmad_app/webroot/img/thumbnail_a1_f1769e813a.png" alt="avatar"><?= $_SESSION['Auth']['prenom_user']." ".$_SESSION['Auth']['nom_user']?></a></li>
             </ul>
         <?php endif; ?>
     </header>
