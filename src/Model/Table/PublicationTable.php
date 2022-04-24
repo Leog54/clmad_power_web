@@ -49,6 +49,7 @@ class PublicationTable extends Table
             ]);
         $this->belongsTo('Users')
             ->setForeignKey('id_user');
+        $this->hasMany('Commentaire');
     }
 
     /**

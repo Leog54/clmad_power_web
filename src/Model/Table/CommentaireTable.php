@@ -40,6 +40,7 @@ class CommentaireTable extends Table
         $this->setTable('commentaire');
         $this->setDisplayField('id_comm');
         $this->setPrimaryKey('id_comm');
+        $this->belongsTo('Publication');
     }
 
     /**
