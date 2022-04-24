@@ -3,13 +3,13 @@
         <img src="/clmad_app/webroot/img/bigLogo.png" alt="logoAccueil">
     </div>
     <div class="connForm">
-        <?= $this->Flash->render() ?>
             <h3>Connectez-vous</h3>
             <?= $this->Form->create() ?>
             <fieldset>
                 <?= $this->Form->control('email', ['label' => 'Adresse e-mail'], ['required' => true]) ?>
                 <?= $this->Form->control('password', ['label' => 'Mot de passe ', 'type' => 'password'], ['required' => true]) ?>
                 <?= $this->Html->link("Mot de passe oublié ?", ['action' => 'add']) ?>
+                <?= $this->Flash->render() ?>
             </fieldset>
             <?= $this->Form->submit(__('Connexion')); ?>
         <?= $this->Form->end() ?>

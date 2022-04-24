@@ -51,17 +51,8 @@ class RelationTable extends Table
     public function validationDefault(Validator $validator): Validator
     {
         $validator
-            ->integer('id_user')
-            ->allowEmptyString('id_user', null, 'create');
-
-        $validator
-            ->integer('id_user_1')
-            ->allowEmptyString('id_user_1', null, 'create');
-
-        $validator
             ->scalar('statut')
             ->maxLength('statut', 50)
-            ->requirePresence('statut', 'create')
             ->notEmptyString('statut');
 
         return $validator;

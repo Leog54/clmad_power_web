@@ -33,12 +33,24 @@ class UsersController extends AppController
      */
     public function view($id = null)
     {
+        $this->set(compact('id'));
+        $relation = $this->fetchTable('Relation')->newEmptyEntity();
+        $this->set(compact('relation'));
         $this->Authorization->skipAuthorization();
         $user = $this->Users->get($id, [
             'contain' => [],
         ]);
 
         $this->set(compact('user'));
+
+        $query = $this->fetchTable('Publication')->find('all', [
+            'fields' => ['contenu_publi', 'date_publi', 'link_img_publi', 'link_pj_publi', 'id_categ', 'id_user'],
+            'conditions' => ['publication.id_user =' => $id]
+            ]);
+        $result = $query->all();
+        $publication = $result->toArray();
+
+        $this->set(compact('publication'));
     }
 
     /**
@@ -129,7 +141,7 @@ class UsersController extends AppController
             return $this->redirect($redirect);
         }
         if ($this->request->is('post') && !$result->isValid()) {
-            $this->Flash->error(__('Invalid username or password'));
+            $this->Flash->error(__('E-mail ou mot de passe invalide.'));
         }
     }
 

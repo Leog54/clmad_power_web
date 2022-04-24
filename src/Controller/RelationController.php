@@ -21,7 +21,6 @@ class RelationController extends AppController
         $relation = $this->paginate($this->Relation);
 
         $this->set(compact('relation'));
-        $this->viewBuilder()->setOption('serialize', 'relation');
     }
 
     /**
@@ -38,7 +37,6 @@ class RelationController extends AppController
         ]);
 
         $this->set(compact('relation'));
-        $this->viewBuilder()->setOption('serialize', 'relation');
     }
 
     /**
@@ -48,6 +46,7 @@ class RelationController extends AppController
      */
     public function add()
     {
+        $this->Authorization->skipAuthorization();
         $relation = $this->Relation->newEmptyEntity();
         if ($this->request->is('post')) {
             $relation = $this->Relation->patchEntity($relation, $this->request->getData());
@@ -59,7 +58,6 @@ class RelationController extends AppController
             $this->Flash->error(__('The relation could not be saved. Please, try again.'));
         }
         $this->set(compact('relation'));
-        $this->viewBuilder()->setOption('serialize', 'relation');
     }
 
     /**
@@ -84,7 +82,6 @@ class RelationController extends AppController
             $this->Flash->error(__('The relation could not be saved. Please, try again.'));
         }
         $this->set(compact('relation'));
-        $this->viewBuilder()->setOption('serialize', 'relation');
     }
 
     /**
@@ -105,6 +102,5 @@ class RelationController extends AppController
         }
 
         return $this->redirect(['action' => 'index']);
-        $this->viewBuilder()->setOption('serialize', 'relation');
     }
 }
