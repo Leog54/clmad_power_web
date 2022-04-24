@@ -37,6 +37,27 @@ header ul li {
     margin-right: 25px;
 }
 
+header ul.users li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+header ul.users li a{
+    background-color: transparent;
+    color: #000;
+    display: inline-flex;
+    align-items: center;
+    padding: 0;
+}
+
+header ul.users li img{
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
 header ul li a{
     text-decoration: none;
     color: #fff;
