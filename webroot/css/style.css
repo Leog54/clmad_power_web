@@ -263,6 +263,17 @@ fieldset{
 
 .publication.index .posts{
     margin-top:  50px;
+    margin-bottom: 50px;
+}
+
+.publication.index .posts .post{
+    margin-top: 20px;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.publication.index .posts .post:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .publication.index p.user{
@@ -293,10 +304,18 @@ fieldset{
     flex-direction: row;
     width: 20%;
     justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.publication.index .post .image{
+    display: flex;
+    justify-content: center;
 }
 
 .imagePubli {
     width: 500px;
+    height: auto;
 }
 
 .post {
@@ -370,6 +389,29 @@ fieldset{
     .add .connForm {
         margin-top: 170px;
     }
+
+    .publication.index h3{
+        text-align: center;
+    }
+
+    .publication.index .addpubli{
+        width: 100%;
+        text-align: center;
+    }
+
+    .publication.index .post .image a{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .publication.index .post .image img{
+        width: 80%;
+    } 
+
+    .publication.index .post .actions{
+        width: 100%;
+    }
 }
 
 .view {
@@ -413,4 +455,27 @@ fieldset{
     padding-right: 200px;
     padding-bottom: 50px;
     border-radius: 5px;
+}
+
+.view .ress{
+    text-align: center;
+    font-size: 18px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.view img.imagePubli{
+    width: 95%;
+}
+
+.view .post a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.view .post .actions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }

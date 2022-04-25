@@ -25,7 +25,7 @@ use function PHPUnit\Framework\isEmpty;
         </div>
         <div class="addPubli">
             <p>Nouvelle Ressource ?</p>
-            <?= $this->Html->link("Que voulez-vous dire ?", ['controller' => 'Publication', 'action' => 'add']) ?>
+            <?= $this->Html->link("Que voulez-vous dire ?", ['controller' => 'Publication', 'action' => 'add', 'class' => 'add']) ?>
         </div>
         <div class="publi">
             <p>Vos ressources</p>
@@ -36,8 +36,8 @@ use function PHPUnit\Framework\isEmpty;
                 <div class="post">
                     <div class="contenu">
                         <?php $datePublication = new FrozenTime($p->date_publi); ?>
-                        <p><?= h(__($datePublication->timeAgoInWords(['format' => 'd MMM YYY', 'end' => '+6 month']))) ?></p>
-                        <p><?= h($p->contenu_publi) ?></p>
+                        <p class="date"><?= h(__($datePublication->timeAgoInWords(['format' => 'd MMM YYY', 'end' => '+6 month']))) ?></p>
+                        <p class="contenu"><?= h($p->contenu_publi) ?></p>
                         <?php if ($p->link_img_publi != "") { echo $this->Html->link($this->Html->image($p->link_img_publi, ['class' => 'imagePubli']), "/publication/view/".$p->id_publi."", ["escape" => false]) ; } ?>
                     </div>
                     <div class="actions">
@@ -74,8 +74,8 @@ use function PHPUnit\Framework\isEmpty;
                 <div class="post">
                     <div class="contenu">
                         <?php $datePublication = new FrozenTime($p->date_publi); ?>
-                        <p><?= h(__($datePublication->timeAgoInWords(['format' => 'd MMM YYY', 'end' => '+6 month']))) ?></p>
-                        <p><?= h($p->contenu_publi) ?></p>
+                        <p class="date"><?= h(__($datePublication->timeAgoInWords(['format' => 'd MMM YYY', 'end' => '+6 month']))) ?></p>
+                        <p class="contenu"><?= h($p->contenu_publi) ?></p>
                         <?php if ($p->link_img_publi != "") { echo $this->Html->link($this->Html->image($p->link_img_publi, ['class' => 'imagePubli']), "/publication/view/".$p->id_publi."", ["escape" => false]) ; } ?>
                     </div>
                     <div class="actions">

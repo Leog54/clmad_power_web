@@ -12,8 +12,9 @@ use function PHPUnit\Framework\isEmpty;
 ?>
 <div class="publication index content">
     <h3><?= __('Bonjour ' . $connectedUser->prenom_user . ', voici votre fil d\'actualité... ')  ?></h3>
-
-    <?= $this->Html->link(__('Créer une nouvelle publication'), ['action' => 'add'], ['class' => 'button float-right']) ?>
+    <div class="addpubli">
+        <?= $this->Html->link(__('Créer une nouvelle publication'), ['action' => 'add'], ['class' => 'button float-right']) ?>
+    </div>
 
         <div class="posts">
             <?php foreach ($publications as $i => $publication): 
@@ -26,15 +27,17 @@ use function PHPUnit\Framework\isEmpty;
                     <?php $datePublication = new FrozenTime($publication->date_publi); ?>
                     <p class="date"><?= h(__($datePublication->timeAgoInWords(['format' => 'd MMM YYY', 'end' => '+6 month']))) ?></p>
                     <p class="contenu"><?= h($publication->contenu_publi) ?></p>
-                    <?php if ($publication->link_img_publi != "") 
-                        { 
-                            echo $this->Html->link($this->Html->image($publication->link_img_publi, ['class' => 'imagePubli']), "/publication/view/".$publication->id_publi."", ["escape" => false]) ; 
-                            
-                        } 
-                        else if ($publication->link_pj_publi != "") {
-                            echo $this->Html->link($this->Html->image($publication->link_pj_publi, ['class' => 'imagePubli']), "/publication/view/".$publication->id_publi."", ["escape" => false]) ;
-                        }
-                    ?>
+                    <div class="image">
+                        <?php if ($publication->link_img_publi != "") 
+                            { 
+                                echo $this->Html->link($this->Html->image($publication->link_img_publi, ['class' => 'imagePubli']), "/publication/view/".$publication->id_publi."", ["escape" => false]) ; 
+                                
+                            } 
+                            else if ($publication->link_pj_publi != "") {
+                                echo $this->Html->link($this->Html->image($publication->link_pj_publi, ['class' => 'imagePubli']), "/publication/view/".$publication->id_publi."", ["escape" => false]) ;
+                            }
+                        ?>
+                    </div>
                 </div>
                 <div class="actions">
                     <div class="like">
