@@ -24,7 +24,7 @@ class Likepubli extends Entity
      */
     protected $_accessible = [
         '*' => true,
-        'id_user' => false,
-        'id_publi' => false,
+        'id_user' => true,
+        'id_publi' => true,
     ];
 }
