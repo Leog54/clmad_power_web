@@ -17,6 +17,8 @@
             <fieldset>
                 <legend><?= __('Add Relation') ?></legend>
                 <?php
+                    echo $this->Form->control('id_user', ['value' => $_SESSION['Auth']['id_user']]);
+                    echo $this->Form->control('id_user_1', ['value' => $_SESSION['user_cible']]);
                     echo $this->Form->control('statut');
                 ?>
             </fieldset>

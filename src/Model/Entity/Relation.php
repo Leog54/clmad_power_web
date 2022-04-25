@@ -25,5 +25,7 @@ class Relation extends Entity
      */
     protected $_accessible = [
         'statut' => true,
+        'id_user' => true,
+        'id_user_1' => true,
     ];
 }

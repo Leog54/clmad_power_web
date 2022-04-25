@@ -11,8 +11,9 @@ use function PHPUnit\Framework\isEmpty;
 
 ?>
 <div class="publication index content">
-    <?= $this->Html->link(__('Créer une nouvelle publication'), ['action' => 'add'], ['class' => 'button float-right']) ?>
     <h3><?= __('Bonjour ' . $connectedUser->prenom_user . ', voici votre fil d\'actualité... ')  ?></h3>
+
+    <?= $this->Html->link(__('Créer une nouvelle publication'), ['action' => 'add'], ['class' => 'button float-right']) ?>
 
         <div class="posts">
             <?php foreach ($publications as $i => $publication): 
@@ -21,10 +22,10 @@ use function PHPUnit\Framework\isEmpty;
             
             <div class="post">
                 <div class="contenu">
-                    <p><?= h($AuthorUserPubli[$i][0]['nom_user'] . " " . $AuthorUserPubli[$i][0]['prenom_user']) ?></p>
+                    <p class="user"><img src="/clmad_app/webroot/img/thumbnail_a1_f1769e813a.png" alt="avatar"><?= h($AuthorUserPubli[$i][0]['nom_user'] . " " . $AuthorUserPubli[$i][0]['prenom_user']) ?></p>
                     <?php $datePublication = new FrozenTime($publication->date_publi); ?>
-                    <p><?= h(__($datePublication->timeAgoInWords(['format' => 'd MMM YYY', 'end' => '+6 month']))) ?></p>
-                    <p><?= h($publication->contenu_publi) ?></p>
+                    <p class="date"><?= h(__($datePublication->timeAgoInWords(['format' => 'd MMM YYY', 'end' => '+6 month']))) ?></p>
+                    <p class="contenu"><?= h($publication->contenu_publi) ?></p>
                     <?php if ($publication->link_img_publi != "") { echo $this->Html->link($this->Html->image($publication->link_img_publi, ['class' => 'imagePubli']), "/publication/view/".$publication->id_publi."", ["escape" => false]) ; } ?>
                 </div>
                 <div class="actions">

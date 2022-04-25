@@ -18,6 +18,7 @@ class RelationController extends AppController
      */
     public function index()
     {
+        $this->Authorization->skipAuthorization();
         $relation = $this->paginate($this->Relation);
 
         $this->set(compact('relation'));
@@ -32,6 +33,7 @@ class RelationController extends AppController
      */
     public function view($id = null)
     {
+        $this->Authorization->skipAuthorization();
         $relation = $this->Relation->get($id, [
             'contain' => [],
         ]);
@@ -52,8 +54,7 @@ class RelationController extends AppController
             $relation = $this->Relation->patchEntity($relation, $this->request->getData());
             if ($this->Relation->save($relation)) {
                 $this->Flash->success(__('The relation has been saved.'));
-
-                return $this->redirect(['action' => 'index']);
+                return $this->redirect(['controller' => 'Users', 'action' => 'view/'.$_SESSION['user_cible']]);
             }
             $this->Flash->error(__('The relation could not be saved. Please, try again.'));
         }
@@ -69,6 +70,7 @@ class RelationController extends AppController
      */
     public function edit($id = null)
     {
+        $this->Authorization->skipAuthorization();
         $relation = $this->Relation->get($id, [
             'contain' => [],
         ]);
@@ -93,6 +95,7 @@ class RelationController extends AppController
      */
     public function delete($id = null)
     {
+        $this->Authorization->skipAuthorization();
         $this->request->allowMethod(['post', 'delete']);
         $relation = $this->Relation->get($id);
         if ($this->Relation->delete($relation)) {

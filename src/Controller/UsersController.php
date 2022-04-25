@@ -33,6 +33,10 @@ class UsersController extends AppController
      */
     public function view($id = null)
     {
+        if($id != $_SESSION['Auth']['id_user']){
+            $_SESSION['user_cible'] = $id;
+        }
+
         $this->set(compact('id'));
         $relation = $this->fetchTable('Relation')->newEmptyEntity();
         $this->set(compact('relation'));
@@ -51,6 +55,35 @@ class UsersController extends AppController
         $publication = $result->toArray();
 
         $this->set(compact('publication'));
+
+        if(isset($_SESSION['user_cible'])){
+            $query = $this->fetchTable('Relation')->find('all', [
+                'fields' => ['id_user', 'id_user_1', 'statut'],
+                'conditions' => ['relation.id_user =' => $_SESSION['Auth']['id_user'], 'relation.id_user_1 =' => $_SESSION['user_cible']]
+                ]);
+            $result = $query->all();
+            $ifrel = $result->toArray();
+
+            $this->set(compact('ifrel'));
+
+            $query = $this->fetchTable('Relation')->find('all', [
+                'fields' => ['id_user', 'id_user_1', 'statut'],
+                'conditions' => ['relation.id_user =' => $_SESSION['user_cible']]
+                ]);
+            $result = $query->all();
+            $relcible = $result->toArray();
+    
+            $this->set(compact('relcible'));
+        }
+
+        $query = $this->fetchTable('Relation')->find('all', [
+            'fields' => ['id_user', 'id_user_1', 'statut'],
+            'conditions' => ['relation.id_user =' => $_SESSION['Auth']['id_user']]
+            ]);
+        $result = $query->all();
+        $rel = $result->toArray();
+
+        $this->set(compact('rel'));
     }
 
     /**

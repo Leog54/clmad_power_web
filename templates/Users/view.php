@@ -2,6 +2,7 @@
 /**
  * @var \App\View\AppView $this
  * @var \App\Model\Entity\User $user
+ * @var \App\Model\Entity\Relation $relation
  */
 
 use Cake\I18n\FrozenTime;
@@ -17,8 +18,8 @@ use function PHPUnit\Framework\isEmpty;
         <img src="/clmad_app/webroot/img/thumbnail_a1_f1769e813a.png" alt="avatar_profil">
     </div>
     <h3><?= h($user->nom_user." ".$user->prenom_user) ?></h3>
-    <p>Nombre de relations : 0</p>
     <?php if($_SESSION['Auth']['id_user'] == $id): ?>
+        <p>Nombre de relations : <?= count($rel) ?></p>
         <div class="edit">
             <?= $this->Html->link("Modifier votre profil", ['action' => 'edit/'.$_SESSION['Auth']['id_user']]) ?>
         </div>
@@ -54,12 +55,17 @@ use function PHPUnit\Framework\isEmpty;
             <?php } endforeach; ?>
         </div>
     <?php else: ?>
+        <p>Nombre de relations : <?= count($relcible) ?></p>
         <div class="publi">
-            <?php echo $this->Form->create($relation); ?>
-                <?= $this->Form->control('id_user', ['value' => $_SESSION['Auth']['id_user'], "type" => 'hidden']) ?> 
-                <?= $this->Form->control('id_user_1', ['value' => $id, "type" => 'hidden']) ?>     
-                <?= $this->Form->submit(__("Ajouter une relation")) ?>
-            <?= $this->Form->end() ?>
+            <?php 
+                // var_dump($ifrel);
+                if($ifrel){
+                    echo $this->Html->link("Supprimer la relation", ['controller' => 'Relation', 'action' => 'delete']);
+                } else{
+                    echo $this->Html->link("Ajouter une relation", ['controller' => 'Relation', 'action' => 'add']);
+                }
+
+            ?>
             <p>Ses ressources</p>
             <?php foreach ($publication as $p): 
                     if ($p->visi == 1 || $p->id_user == $_SESSION['Auth']['id_user']) {
