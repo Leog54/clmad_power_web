@@ -26,6 +26,7 @@ class PublicationController extends AppController
         $connectedUser = $this->Authentication->getIdentity();
         $AuthorUserPubli = [];
         $CommentairesPubli = [];
+        $LikesPubli = [];
 
         foreach ($publications as $publication) {
             $query = $this->fetchTable('Users')->find('all', [
@@ -43,12 +44,20 @@ class PublicationController extends AppController
             $result2 = $query2->all();
             $commentaire = $result2->toArray();
             array_push($CommentairesPubli, $commentaire);
+
+            $query3 = $this->fetchTable('Likepubli')->find('all', [
+                'conditions' => ['Likepubli.id_publi' => $publication->id_publi, 'Likepubli.id_user' => $connectedUser->id_user]
+            ]);
+            $result3 = $query3->all();
+            $like = $result3->toArray();
+            array_push($LikesPubli, $like);
         }
 
         $this->set(compact('publications'));
         $this->set(compact('connectedUser'));
         $this->set(compact('AuthorUserPubli'));
         $this->set(compact('CommentairesPubli'));
+        $this->set(compact('LikesPubli'));
 
         $this->viewBuilder()->setOption('serialize', 'publications');
     }

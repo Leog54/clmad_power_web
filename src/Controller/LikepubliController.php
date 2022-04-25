@@ -11,97 +11,42 @@ namespace App\Controller;
  */
 class LikepubliController extends AppController
 {
-    /**
-     * Index method
-     *
-     * @return \Cake\Http\Response|null|void Renders view
-     */
-    public function index()
-    {
-        $this->Authorization->skipAuthorization();
-        $likepubli = $this->paginate($this->Likepubli);
 
-        $this->set(compact('likepubli'));
-    }
-
-    /**
-     * View method
-     *
-     * @param string|null $id Likepubli id.
-     * @return \Cake\Http\Response|null|void Renders view
-     * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
-     */
-    public function view($id = null)
-    {
-        $this->Authorization->skipAuthorization();
-        $likepubli = $this->Likepubli->get($id, [
-            'contain' => [],
-        ]);
-
-        $this->set(compact('likepubli'));
-    }
-
-    /**
-     * Add method
-     *
-     * @return \Cake\Http\Response|null|void Redirects on successful add, renders view otherwise.
-     */
-    public function add()
+    public function add($idPubli)
     {
         $likepubli = $this->Likepubli->newEmptyEntity();
-        if ($this->request->is('post')) {
-            $likepubli = $this->Likepubli->patchEntity($likepubli, $this->request->getData());
-            if ($this->Likepubli->save($likepubli)) {
-                $this->Flash->success(__('The likepubli has been saved.'));
-
-                return $this->redirect(['action' => 'index']);
-            }
-            $this->Flash->error(__('The likepubli could not be saved. Please, try again.'));
-        }
-        $this->set(compact('likepubli'));
-    }
-
-    /**
-     * Edit method
-     *
-     * @param string|null $id Likepubli id.
-     * @return \Cake\Http\Response|null|void Redirects on successful edit, renders view otherwise.
-     * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
-     */
-    public function edit($id = null)
-    {
-        $likepubli = $this->Likepubli->get($id, [
-            'contain' => [],
+        $this->Authorization->authorize($likepubli);
+        $user = $this->Authentication->getIdentity();
+        $likepubli = $this->Likepubli->newEntity([
+            'id_user' => $user->id_user,
+            'id_publi' => $idPubli
         ]);
-        if ($this->request->is(['patch', 'post', 'put'])) {
-            $likepubli = $this->Likepubli->patchEntity($likepubli, $this->request->getData());
-            if ($this->Likepubli->save($likepubli)) {
-                $this->Flash->success(__('The likepubli has been saved.'));
 
-                return $this->redirect(['action' => 'index']);
-            }
-            $this->Flash->error(__('The likepubli could not be saved. Please, try again.'));
+        if ($this->Likepubli->save($likepubli)) {
+            return $this->redirect(['controller' => 'publication', 'action' => 'index']);
         }
-        $this->set(compact('likepubli'));
+        else {
+            $this->Flash->error(__('Le like n\'a pas été ajouté. Merci de réessayer.'));
+        }
     }
 
-    /**
-     * Delete method
-     *
-     * @param string|null $id Likepubli id.
-     * @return \Cake\Http\Response|null|void Redirects to index.
-     * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
-     */
-    public function delete($id = null)
+    public function delete($idPubli)
     {
-        $this->request->allowMethod(['post', 'delete']);
-        $likepubli = $this->Likepubli->get($id);
-        if ($this->Likepubli->delete($likepubli)) {
-            $this->Flash->success(__('The likepubli has been deleted.'));
-        } else {
-            $this->Flash->error(__('The likepubli could not be deleted. Please, try again.'));
-        }
+        $likepubli = $this->Likepubli->newEmptyEntity();
+        $this->Authorization->authorize($likepubli);
+        $user = $this->Authentication->getIdentity();
+        $likepubli = $this->Likepubli->newEntity([
+            'id_user' => $user->id_user,
+            'id_publi' => $idPubli
+        ]);
 
-        return $this->redirect(['action' => 'index']);
+        $likepubli = $this->Likepubli->get(['id_user' => $user->id_user,'id_publi' => $idPubli]);
+
+        if ($this->Likepubli->delete($likepubli)) {
+            return $this->redirect(['controller' => 'publication', 'action' => 'index']);
+        }
+        else {
+            $this->Flash->error(__('Le like n\'a pas été enlevé. Merci de réessayer.'));
+        }
     }
 }

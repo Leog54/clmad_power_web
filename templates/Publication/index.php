@@ -41,7 +41,19 @@ use function PHPUnit\Framework\isEmpty;
                 </div>
                 <div class="actions">
                     <div class="like">
-                        <?= $this->Html->link("J'aime", ['class' => 'likeButton']) ?>
+                        <?php
+                            if (!empty($LikesPubli[$i][0]['id_user'])) {
+                                if ($connectedUser->id_user == $LikesPubli[$i][0]['id_user']) {
+                                    echo $this->Html->link($this->Html->image("unlike.png", ['alt' => 'Enlever un like']), '/likepubli/delete/' . $publication->id_publi, ['escape' => false]);
+                                }
+                                else {
+                                    echo $this->Html->link($this->Html->image("like.png", ['alt' => 'Ajouter un like']), '/likepubli/add/' . $publication->id_publi, ['escape' => false]);
+                                }
+                            }
+                            else {
+                                echo $this->Html->link($this->Html->image("like.png", ['alt' => 'Ajouter un like']), '/likepubli/add/' . $publication->id_publi, ['escape' => false]);
+                            }
+                        ?>
                     </div>
                     <div class="commentaire">
                         <?= $this->Html->link("Commenter", ['class' => 'commentButton', 'action' => 'view', $publication->id_publi]) ?>
