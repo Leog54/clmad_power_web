@@ -121,7 +121,7 @@ class PublicationController extends AppController
 
         if ($this->request->is('post')) {
             $publication = $this->Publication->patchEntity($publication, $this->request->getData());
-            $pjPubli = $this->request->getData('link_pj_publi');
+            $pjPubli = $this->request->getData('image_file');
 
             if (!$publication->getErrors) {
                 $name = $pjPubli->getClientFilename();
