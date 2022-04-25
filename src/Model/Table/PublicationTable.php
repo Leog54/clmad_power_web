@@ -81,7 +81,6 @@ class PublicationTable extends Table
             ->allowEmptyString('link_pj_publi');
 
         $validator
-        ->scalar('image_file')
         ->allowEmptyFile('image_file');
 
         $validator
