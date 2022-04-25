@@ -81,6 +81,9 @@ class PublicationTable extends Table
             ->allowEmptyString('link_pj_publi');
 
         $validator
+        ->allowEmptyFile('image_file');
+
+        $validator
             ->integer('id_categ')
             ->requirePresence('id_categ', 'create')
             ->notEmptyString('id_categ');
