@@ -1,48 +1,33 @@
-# CakePHP specific files #
-##########################
-/config/app_local.php
-/config/.env
-/logs/*
-/tmp/*
-/vendor/*
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-# OS generated files #
-######################
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-# Icon must end with two \r
-Icon
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
-ehthumbs.db
-Thumbs.db
-.directory
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
 
-# Tool specific files #
-#######################
-# PHPUnit
-.phpunit.result.cache
-tests.sqlite
-# vim
-*~
-*.swp
-*.swo
-# sublime text & textmate
-*.sublime-*
-*.stTheme.cache
-*.tmlanguage.cache
-*.tmPreferences.cache
-# Eclipse
-.settings/*
-# JetBrains, aka PHPStorm, IntelliJ IDEA
-.idea/*
-# NetBeans
-nbproject/*
-# Visual Studio Code
-.vscode
-# Sass preprocessor
-.sass-cache/
-templates/layout/default.php
-templates/layout/default.php
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/

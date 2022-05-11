@@ -1,0 +1,3103 @@
+2022-03-14 13:53:01 error: [Cake\Http\Exception\MissingControllerException] Controller class User could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'User',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /user
+
+
+2022-03-16 11:30:56 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/css/reset.css
+Referer URL: http://localhost/clmad_app/debug-kit/toolbar/08aba01e-a0a6-4160-9272-bffe2c9a13fd
+
+
+2022-03-16 11:30:56 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/css/toolbar.css
+Referer URL: http://localhost/clmad_app/debug-kit/toolbar/08aba01e-a0a6-4160-9272-bffe2c9a13fd
+
+
+2022-03-16 11:30:56 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/debug_kit.js
+Referer URL: http://localhost/clmad_app/debug-kit/toolbar/08aba01e-a0a6-4160-9272-bffe2c9a13fd
+
+
+2022-03-16 11:30:56 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/jquery.js
+Referer URL: http://localhost/clmad_app/debug-kit/toolbar/08aba01e-a0a6-4160-9272-bffe2c9a13fd
+
+
+2022-03-16 11:30:56 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar-app.js
+Referer URL: http://localhost/clmad_app/debug-kit/toolbar/08aba01e-a0a6-4160-9272-bffe2c9a13fd
+
+
+2022-03-16 11:30:56 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/img/cake.icon.png
+Referer URL: http://localhost/clmad_app/debug-kit/toolbar/08aba01e-a0a6-4160-9272-bffe2c9a13fd
+
+
+2022-03-16 11:44:02 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/css/reset.css
+Referer URL: http://localhost/clmad_app/debug-kit/toolbar/7a29d068-07f3-42ae-a453-bf4738df3f56
+
+
+2022-03-16 11:44:02 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/css/toolbar.css
+Referer URL: http://localhost/clmad_app/debug-kit/toolbar/7a29d068-07f3-42ae-a453-bf4738df3f56
+
+
+2022-03-16 11:44:03 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/debug_kit.js
+Referer URL: http://localhost/clmad_app/debug-kit/toolbar/7a29d068-07f3-42ae-a453-bf4738df3f56
+
+
+2022-03-16 11:44:03 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/jquery.js
+Referer URL: http://localhost/clmad_app/debug-kit/toolbar/7a29d068-07f3-42ae-a453-bf4738df3f56
+
+
+2022-03-16 11:44:03 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/img/cake.icon.png
+Referer URL: http://localhost/clmad_app/debug-kit/toolbar/7a29d068-07f3-42ae-a453-bf4738df3f56
+
+
+2022-03-16 11:44:03 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar-app.js
+Referer URL: http://localhost/clmad_app/debug-kit/toolbar/7a29d068-07f3-42ae-a453-bf4738df3f56
+
+
+2022-03-16 11:44:10 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/css/toolbar.css
+Referer URL: http://localhost/clmad_app/debug-kit/toolbar/12172894-8e61-4603-830c-36a9cd826707
+
+
+2022-03-16 11:44:10 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/css/reset.css
+Referer URL: http://localhost/clmad_app/debug-kit/toolbar/12172894-8e61-4603-830c-36a9cd826707
+
+
+2022-03-16 11:44:10 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/img/cake.icon.png
+Referer URL: http://localhost/clmad_app/debug-kit/toolbar/12172894-8e61-4603-830c-36a9cd826707
+
+
+2022-03-16 11:44:10 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/jquery.js
+Referer URL: http://localhost/clmad_app/debug-kit/toolbar/12172894-8e61-4603-830c-36a9cd826707
+
+
+2022-03-16 11:44:10 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/debug_kit.js
+Referer URL: http://localhost/clmad_app/debug-kit/toolbar/12172894-8e61-4603-830c-36a9cd826707
+
+
+2022-03-16 11:44:10 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar-app.js
+Referer URL: http://localhost/clmad_app/debug-kit/toolbar/12172894-8e61-4603-830c-36a9cd826707
+
+
+2022-03-16 11:44:14 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1647265799
+Referer URL: http://localhost/clmad_app/users/login?redirect=%2F
+
+
+2022-03-16 11:44:23 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1647265799
+Referer URL: http://localhost/clmad_app/users/add
+
+
+2022-03-16 11:49:50 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1647265799
+Referer URL: http://localhost/clmad_app/users/add
+
+
+2022-03-16 11:59:06 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1647265799
+Referer URL: http://localhost/clmad_app/users/add
+
+
+2022-03-16 12:05:37 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1647265799
+Referer URL: http://localhost/clmad_app/users/add
+
+
+2022-03-16 12:06:56 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1647265799
+Referer URL: http://localhost/clmad_app/users/add
+
+
+2022-03-16 12:06:57 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1647265799
+Referer URL: http://localhost/clmad_app/users/add
+
+
+2022-03-16 12:06:59 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1647265799
+Referer URL: http://localhost/clmad_app/users/add
+
+
+2022-03-16 12:07:21 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1647265799
+Referer URL: http://localhost/clmad_app/users/add
+
+
+2022-03-16 12:07:22 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1647265799
+Referer URL: http://localhost/clmad_app/users/add
+
+
+2022-03-16 12:08:01 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1647265799
+Referer URL: http://localhost/clmad_app/users/add
+
+
+2022-03-16 12:08:02 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1647265799
+Referer URL: http://localhost/clmad_app/users/add
+
+
+2022-03-16 12:15:26 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1647265799
+Referer URL: http://localhost/clmad_app/users/add
+
+
+2022-03-16 12:16:27 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1647265799
+Referer URL: http://localhost/clmad_app/users/add
+
+
+2022-03-16 12:16:53 error: [TypeError] Argument 1 passed to Cake\View\Helper\FormHelper::select() must be of the type string, array given, called in C:\wamp64\www\clmad_app\templates\Users\add.php on line 22 in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php on line 2029
+Stack Trace:
+- C:\wamp64\www\clmad_app\templates\Users\add.php:22
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\View\View.php:1181
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\View\View.php:1138
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\View\View.php:769
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\Controller.php:762
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\Controller.php:548
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:140
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:115
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:317
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /users/add
+
+
+2022-03-16 12:17:06 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1647265799
+Referer URL: http://localhost/clmad_app/users/add
+
+
+2022-03-16 12:19:49 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1647265799
+Referer URL: http://localhost/clmad_app/users/add
+
+
+2022-03-16 12:20:00 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1647265799
+Referer URL: http://localhost/clmad_app/users/add
+
+
+2022-03-16 12:22:31 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1647265799
+Referer URL: http://localhost/clmad_app/users/add
+
+
+2022-03-16 12:24:28 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1647265799
+Referer URL: http://localhost/clmad_app/users/add
+
+
+2022-03-16 12:24:32 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /css/normalize.min.css
+Referer URL: http://localhost/clmad_app/users/add
+
+
+2022-03-16 12:24:32 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /css/milligram.min.css
+Referer URL: http://localhost/clmad_app/users/add
+
+
+2022-03-16 12:24:32 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /css/cake.css
+Referer URL: http://localhost/clmad_app/users/add
+
+
+2022-03-16 12:24:32 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1647265799
+Referer URL: http://localhost/clmad_app/users/add
+
+
+2022-03-16 12:24:43 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1647265799
+Referer URL: http://localhost/clmad_app/users/login?redirect=%2Fusers
+
+
+2022-03-16 12:24:43 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /css/milligram.min.css
+Referer URL: http://localhost/clmad_app/users/login?redirect=%2Fusers
+
+
+2022-03-16 12:24:43 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /css/cake.css
+Referer URL: http://localhost/clmad_app/users/login?redirect=%2Fusers
+
+
+2022-03-16 12:24:43 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /css/normalize.min.css
+Referer URL: http://localhost/clmad_app/users/login?redirect=%2Fusers
+
+
+2022-03-16 12:34:51 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1647265799
+Referer URL: http://localhost/clmad_app/users/add
+
+
+2022-03-16 15:15:15 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1647265799
+Referer URL: http://localhost/clmad_app/users/add
+
+
+2022-03-16 18:10:34 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1647265799
+Referer URL: http://localhost/clmad_app/users/add
+
+
+2022-03-17 14:35:33 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1647265799
+Referer URL: http://localhost/clmad_app/users/add
+
+
+2022-03-17 14:35:48 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1647265799
+Referer URL: http://localhost/clmad_app/users/login?redirect=%2Fpublication
+
+
+2022-03-17 14:52:43 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1647265800
+Referer URL: http://127.0.0.1/clmad_app/users/login?redirect=%2F
+Client IP: 127.0.0.1
+
+
+2022-03-17 14:52:52 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1647265800
+Referer URL: http://127.0.0.1/clmad_app/users/login?redirect=%2Fusers%2Fpublication
+Client IP: 127.0.0.1
+
+
+2022-03-18 07:47:30 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1647265800
+Referer URL: http://127.0.0.1/clmad_app/users/login?redirect=%2F
+Client IP: 127.0.0.1
+
+
+2022-03-18 12:25:14 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1647265800
+Referer URL: http://127.0.0.1/clmad_app/users/add
+Client IP: 127.0.0.1
+
+
+2022-03-18 12:25:46 error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'password' doesn't have a default value in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:39
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:180
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:75
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Connection.php:337
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Connection.php:340
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Query.php:250
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\ORM\Table.php:2072
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\ORM\Table.php:1965
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\ORM\Table.php:1866
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\ORM\Table.php:1555
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Connection.php:686
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\ORM\Table.php:1556
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\ORM\Table.php:1867
+- D:\wamp64\www\clmad_app\src\Controller\UsersController.php:52
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\Controller.php:539
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:140
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:115
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:317
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /users/add
+Referer URL: http://127.0.0.1/clmad_app/users/add
+Client IP: 127.0.0.1
+
+
+2022-03-18 12:29:31 error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'Users.email' inconnu dans where clause in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:39
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:180
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:75
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Connection.php:337
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Connection.php:340
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Query.php:250
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\ORM\Query.php:1148
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:287
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\ORM\Query.php:1096
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:494
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Identifier\Resolver\OrmResolver.php:78
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Identifier\PasswordIdentifier.php:154
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Identifier\PasswordIdentifier.php:99
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Identifier\IdentifierCollection.php:52
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Authenticator\FormAuthenticator.php:131
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\AuthenticationService.php:183
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:105
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /users/login?redirect=%2Fapi%2Fusers
+Referer URL: http://127.0.0.1/clmad_app/users/login?redirect=%2Fapi%2Fusers
+Client IP: 127.0.0.1
+
+
+2022-03-18 12:29:57 error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'Users.email' inconnu dans where clause in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:39
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:180
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:75
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Connection.php:337
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Connection.php:340
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Query.php:250
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\ORM\Query.php:1148
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:287
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\ORM\Query.php:1096
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:494
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Identifier\Resolver\OrmResolver.php:78
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Identifier\PasswordIdentifier.php:154
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Identifier\PasswordIdentifier.php:99
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Identifier\IdentifierCollection.php:52
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Authenticator\FormAuthenticator.php:131
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\AuthenticationService.php:183
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:105
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /users/login?redirect=%2Fapi%2Fusers
+Referer URL: http://127.0.0.1/clmad_app/users/login?redirect=%2Fapi%2Fusers
+Client IP: 127.0.0.1
+
+
+2022-03-18 12:30:02 error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'Users.email' inconnu dans where clause in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:39
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:180
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:75
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Connection.php:337
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Connection.php:340
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Query.php:250
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\ORM\Query.php:1148
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:287
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\ORM\Query.php:1096
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:494
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Identifier\Resolver\OrmResolver.php:78
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Identifier\PasswordIdentifier.php:154
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Identifier\PasswordIdentifier.php:99
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Identifier\IdentifierCollection.php:52
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Authenticator\FormAuthenticator.php:131
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\AuthenticationService.php:183
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:105
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /users/login?redirect=%2Fapi%2Fusers
+Referer URL: http://127.0.0.1/clmad_app/users/login?redirect=%2Fapi%2Fusers
+Client IP: 127.0.0.1
+
+
+2022-03-18 12:31:55 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1647265800
+Referer URL: http://127.0.0.1/clmad_app/users/login?redirect=%2Fapi%2Fusers
+Client IP: 127.0.0.1
+
+
+2022-03-18 12:35:37 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1647265800
+Referer URL: http://127.0.0.1/clmad_app/users/login?redirect=%2Fapi%2Fusers
+Client IP: 127.0.0.1
+
+
+2022-03-18 12:36:56 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1647265800
+Referer URL: http://127.0.0.1/clmad_app/users/login?redirect=%2Fapi%2Fusers
+Client IP: 127.0.0.1
+
+
+2022-03-18 12:39:54 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1647265800
+Referer URL: http://127.0.0.1/clmad_app/users/login?redirect=%2Fapi%2Fusers
+Client IP: 127.0.0.1
+
+
+2022-03-18 12:40:09 error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1647265800
+Referer URL: http://127.0.0.1/clmad_app/users/login?redirect=%2Fapi%2Fusers
+Client IP: 127.0.0.1
+
+
+2022-03-18 12:52:22 warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\wamp64\www\clmad_app\src\Controller\UsersController.php:116) in [D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Session.php, line 643]
+Request URL: /users/login?redirect=%2Fapi%2Fusers
+Referer URL: http://127.0.0.1/clmad_app/users/login?redirect=%2Fapi%2Fusers
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 123
+setcookie - [internal], line ??
+Cake\Http\Session::renew() - CORE\src\Http\Session.php, line 643
+Authentication\Authenticator\SessionAuthenticator::persistIdentity() - ROOT\vendor\cakephp\authentication\src\Authenticator\SessionAuthenticator.php, line 92
+Authentication\AuthenticationService::persistIdentity() - ROOT\vendor\cakephp\authentication\src\AuthenticationService.php, line 244
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 128
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 126
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+
+2022-03-18 12:52:22 warning: Warning (2): session_regenerate_id() [<a href='https://secure.php.net/function.session-regenerate-id'>function.session-regenerate-id</a>]: Cannot regenerate session id - headers already sent in [D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Session.php, line 647]
+Request URL: /users/login?redirect=%2Fapi%2Fusers
+Referer URL: http://127.0.0.1/clmad_app/users/login?redirect=%2Fapi%2Fusers
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 123
+session_regenerate_id - [internal], line ??
+Cake\Http\Session::renew() - CORE\src\Http\Session.php, line 647
+Authentication\Authenticator\SessionAuthenticator::persistIdentity() - ROOT\vendor\cakephp\authentication\src\Authenticator\SessionAuthenticator.php, line 92
+Authentication\AuthenticationService::persistIdentity() - ROOT\vendor\cakephp\authentication\src\AuthenticationService.php, line 244
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 128
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 126
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+
+2022-03-18 12:52:23 warning: Warning (512): Unable to emit headers. Headers sent in file=D:\wamp64\www\clmad_app\src\Controller\UsersController.php line=116 in [D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 71]
+Request URL: /users/login?redirect=%2Fapi%2Fusers
+Referer URL: http://127.0.0.1/clmad_app/users/login?redirect=%2Fapi%2Fusers
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 123
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2022-03-18 12:52:23 warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\wamp64\www\clmad_app\src\Controller\UsersController.php:116) in [D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 168]
+Request URL: /users/login?redirect=%2Fapi%2Fusers
+Referer URL: http://127.0.0.1/clmad_app/users/login?redirect=%2Fapi%2Fusers
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 123
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2022-03-18 12:52:23 warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\wamp64\www\clmad_app\src\Controller\UsersController.php:116) in [D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /users/login?redirect=%2Fapi%2Fusers
+Referer URL: http://127.0.0.1/clmad_app/users/login?redirect=%2Fapi%2Fusers
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 123
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2022-03-18 12:52:23 warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\wamp64\www\clmad_app\src\Controller\UsersController.php:116) in [D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /users/login?redirect=%2Fapi%2Fusers
+Referer URL: http://127.0.0.1/clmad_app/users/login?redirect=%2Fapi%2Fusers
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 123
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2022-03-18 12:52:23 warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\wamp64\www\clmad_app\src\Controller\UsersController.php:116) in [D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /users/login?redirect=%2Fapi%2Fusers
+Referer URL: http://127.0.0.1/clmad_app/users/login?redirect=%2Fapi%2Fusers
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 123
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2022-03-18 12:54:17 error: [Cake\Http\Exception\MissingControllerException] Controller class Api could not be found. in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Api',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /api/users/view
+Client IP: 127.0.0.1
+
+
+2022-03-18 12:54:21 error: [Cake\Http\Exception\MissingControllerException] Controller class Api could not be found. in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Api',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /api/users/view/1
+Client IP: 127.0.0.1
+
+
+2022-03-18 12:54:33 error: [Cake\Http\Exception\MissingControllerException] Controller class Api could not be found. in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Api',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /api/
+Client IP: 127.0.0.1
+
+
+2022-03-18 12:54:39 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /css/milligram.min.css
+Referer URL: http://127.0.0.1/clmad_app/
+Client IP: 127.0.0.1
+
+
+2022-03-18 12:54:43 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /css/cake.css
+Referer URL: http://127.0.0.1/clmad_app/
+Client IP: 127.0.0.1
+
+
+2022-03-18 12:54:43 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /css/normalize.min.css
+Referer URL: http://127.0.0.1/clmad_app/
+Client IP: 127.0.0.1
+
+
+2022-03-18 12:54:44 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /css/home.css
+Referer URL: http://127.0.0.1/clmad_app/
+Client IP: 127.0.0.1
+
+
+2022-03-18 12:54:45 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /css/cake.css
+Referer URL: http://127.0.0.1/clmad_app/
+Client IP: 127.0.0.1
+
+
+2022-03-18 12:54:46 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /css/normalize.min.css
+Referer URL: http://127.0.0.1/clmad_app/
+Client IP: 127.0.0.1
+
+
+2022-03-18 12:54:47 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /css/milligram.min.css
+Referer URL: http://127.0.0.1/clmad_app/
+Client IP: 127.0.0.1
+
+
+2022-03-18 12:54:47 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /css/home.css
+Referer URL: http://127.0.0.1/clmad_app/
+Client IP: 127.0.0.1
+
+
+2022-03-18 12:55:36 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /css/normalize.min.css
+Referer URL: http://127.0.0.1/clmad_app/
+Client IP: 127.0.0.1
+
+
+2022-03-18 12:55:37 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /css/milligram.min.css
+Referer URL: http://127.0.0.1/clmad_app/
+Client IP: 127.0.0.1
+
+
+2022-03-18 12:55:38 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /css/home.css
+Referer URL: http://127.0.0.1/clmad_app/
+Client IP: 127.0.0.1
+
+
+2022-03-18 12:55:38 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /css/cake.css
+Referer URL: http://127.0.0.1/clmad_app/
+Client IP: 127.0.0.1
+
+
+2022-03-18 12:55:55 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /css/cake.css
+Referer URL: http://127.0.0.1/clmad_app/
+Client IP: 127.0.0.1
+
+
+2022-03-18 12:55:57 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /css/normalize.min.css
+Referer URL: http://127.0.0.1/clmad_app/
+Client IP: 127.0.0.1
+
+
+2022-03-18 12:55:59 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /css/home.css
+Referer URL: http://127.0.0.1/clmad_app/
+Client IP: 127.0.0.1
+
+
+2022-03-18 12:56:00 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /css/milligram.min.css
+Referer URL: http://127.0.0.1/clmad_app/
+Client IP: 127.0.0.1
+
+
+2022-03-18 13:03:40 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /css/milligram.min.css
+Referer URL: http://127.0.0.1/clmad_app/
+Client IP: 127.0.0.1
+
+
+2022-03-18 13:03:41 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /css/normalize.min.css
+Referer URL: http://127.0.0.1/clmad_app/
+Client IP: 127.0.0.1
+
+
+2022-03-18 13:03:41 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /css/cake.css
+Referer URL: http://127.0.0.1/clmad_app/
+Client IP: 127.0.0.1
+
+
+2022-03-18 13:03:42 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /css/home.css
+Referer URL: http://127.0.0.1/clmad_app/
+Client IP: 127.0.0.1
+
+
+2022-03-18 13:05:13 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /css/normalize.min.css
+Referer URL: http://127.0.0.1/clmad_app/
+Client IP: 127.0.0.1
+
+
+2022-03-18 13:05:13 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /css/milligram.min.css
+Referer URL: http://127.0.0.1/clmad_app/
+Client IP: 127.0.0.1
+
+
+2022-03-18 13:05:14 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /css/cake.css
+Referer URL: http://127.0.0.1/clmad_app/
+Client IP: 127.0.0.1
+
+
+2022-03-18 13:05:14 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /css/home.css
+Referer URL: http://127.0.0.1/clmad_app/
+Client IP: 127.0.0.1
+
+
+2022-03-18 15:10:21 error: [Error] Class 'App\Model\Entity\DefaultPasswordHasher' not found in D:\wamp64\www\clmad_app\src\Model\Entity\User.php on line 67
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Datasource\EntityTrait.php:260
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\ORM\Marshaller.php:606
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\ORM\Table.php:2841
+- D:\wamp64\www\clmad_app\src\Controller\UsersController.php:51
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\Controller.php:539
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:140
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:115
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:317
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /users/add
+Referer URL: http://127.0.0.1/clmad_app/users/add
+Client IP: 127.0.0.1
+
+
+2022-03-18 15:11:24 error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'id_user' doesn't have a default value in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:39
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:180
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:75
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Connection.php:337
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Connection.php:340
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Query.php:250
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\ORM\Table.php:2072
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\ORM\Table.php:1965
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\ORM\Table.php:1866
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\ORM\Table.php:1555
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Connection.php:686
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\ORM\Table.php:1556
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\ORM\Table.php:1867
+- D:\wamp64\www\clmad_app\src\Controller\UsersController.php:52
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\Controller.php:539
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:140
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:115
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:317
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /users/add
+Referer URL: http://127.0.0.1/clmad_app/users/add
+Client IP: 127.0.0.1
+
+
+2022-03-18 15:12:17 error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'id_user' doesn't have a default value in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:39
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:180
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:75
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Connection.php:337
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Connection.php:340
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Query.php:250
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\ORM\Table.php:2072
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\ORM\Table.php:1965
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\ORM\Table.php:1866
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\ORM\Table.php:1555
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Connection.php:686
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\ORM\Table.php:1556
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\ORM\Table.php:1867
+- D:\wamp64\www\clmad_app\src\Controller\UsersController.php:52
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\Controller.php:539
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:140
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:115
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:317
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /users/add
+Referer URL: http://127.0.0.1/clmad_app/users/add
+Client IP: 127.0.0.1
+
+
+2022-03-28 14:08:50 error: [Cake\Http\Exception\MissingControllerException] Controller class Publications could not be found. in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Publications',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /publications
+Referer URL: http://127.0.0.1/clmad_app/
+Client IP: 127.0.0.1
+
+
+2022-03-28 14:11:58 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or incorrect CSRF cookie type. in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php on line 390
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:170
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /
+Referer URL: http://127.0.0.1/clmad_app/
+Client IP: 127.0.0.1
+
+
+2022-03-28 19:42:17 error: [Error] Call to undefined method Authentication\Controller\Component\AuthenticationComponent::allow() in D:\wamp64\www\clmad_app\src\Controller\PublicationController.php on line 114
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Event\EventManager.php:309
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Event\EventManager.php:286
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php:92
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\Controller.php:634
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:130
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:115
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:317
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:164
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /
+Client IP: 127.0.0.1
+
+
+2022-03-28 19:43:04 error: [Error] Call to a member function allow() on null in D:\wamp64\www\clmad_app\src\Controller\PublicationController.php on line 114
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Event\EventManager.php:309
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Event\EventManager.php:286
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php:92
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\Controller.php:634
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:130
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:115
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:317
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /
+Client IP: 127.0.0.1
+
+
+2022-03-28 19:43:05 warning: Warning (512): Unable to emit headers. Headers sent in file=D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Error\Debugger.php line=988 in [D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 71]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 123
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2022-03-28 19:43:05 warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Error\Debugger.php:988) in [D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 168]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 123
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2022-03-28 19:43:05 warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Error\Debugger.php:988) in [D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 123
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2022-03-28 19:43:05 warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Error\Debugger.php:988) in [D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 123
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2022-03-28 20:27:53 error: [Cake\Http\Exception\MissingControllerException] Controller class Users.index could not be found. in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Users.index',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:334
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:72
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\clmad_app\webroot\index.php:40
+
+Request URL: /users.index
+Client IP: 127.0.0.1
+
+

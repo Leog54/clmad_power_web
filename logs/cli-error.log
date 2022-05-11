@@ -1,0 +1,31 @@
+2022-03-18 15:01:06 error: [Cake\Database\Exception\DatabaseException] SQLSTATE[42S02]: Base table or view not found: 1146 La table 'clmad_bdd_new.like_comm' n'existe pas in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 160
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:118
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\ORM\Table.php:513
+- D:\wamp64\www\clmad_app\vendor\cakephp\bake\src\Command\ModelCommand.php:111
+- D:\wamp64\www\clmad_app\vendor\cakephp\bake\src\Command\ModelCommand.php:94
+- D:\wamp64\www\clmad_app\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Console\BaseCommand.php:179
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- D:\wamp64\www\clmad_app\bin\cake.php:12
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 La table 'clmad_bdd_new.like_comm' n'existe pas in D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:39
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Connection.php:306
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Connection.php:309
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:158
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:118
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\ORM\Table.php:513
+- D:\wamp64\www\clmad_app\vendor\cakephp\bake\src\Command\ModelCommand.php:111
+- D:\wamp64\www\clmad_app\vendor\cakephp\bake\src\Command\ModelCommand.php:94
+- D:\wamp64\www\clmad_app\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Console\BaseCommand.php:179
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- D:\wamp64\www\clmad_app\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- D:\wamp64\www\clmad_app\bin\cake.php:12
+
+
+
