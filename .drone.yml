@@ -2,6 +2,11 @@ kind: pipeline
 type: docker
 name: default
 
+server:
+  host: 212.217.12.57
+  user: root
+  password: 02@g$F*jat
+
 steps:
 - name: update
   image: composer
@@ -11,9 +16,9 @@ steps:
 - name: install
   image: composer
   commands:
-  - composer install --ignore-platform-req=ext-intl
+  - composer install
 
-- name: test
-  image: php:8
+- name: deploy
   commands:
-  - vendor/bin/phpunit --configuration config.xml
+  - mkdir -p /var/www/html/clmad_app
+  - cp -rf * /var/www/html/clmad_app
