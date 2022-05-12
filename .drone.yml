@@ -19,6 +19,7 @@ steps:
   - composer install
 
 - name: deploy
+  image: alpine
   commands:
   - mkdir -p /var/www/html/clmad_app
   - cp -rf * /var/www/html/clmad_app
