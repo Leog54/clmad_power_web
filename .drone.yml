@@ -6,12 +6,12 @@ steps:
 - name: update
   image: composer
   commands:
-  - composer update
+  - composer update --ignore-platform-req=ext-intl
 
 - name: install
   image: composer
   commands:
-  - composer install
+  - composer install --ignore-platform-req=ext-intl
 
 - name: test
   image: php:7
