@@ -16,11 +16,11 @@ jobs:
 
     steps:
 
-    - name: update
-      run: composer update --ignore-platform-req=ext-intl
-
     - name: install
       run: composer install --ignore-platform-req=ext-intl
+
+    - name: update
+      run: composer update --ignore-platform-req=ext-intl
 
     # - name: update integration
     #   image: appleboy/drone-scp
