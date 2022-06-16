@@ -12,11 +12,6 @@ steps:
   image: composer
   commands:
   - composer install --ignore-platform-req=ext-intl
-  
-- name: test
-  image: php:8.1.0
-  commands:
-  - vendor/bin/phpunit --configuration config.xml
 
 - name: update integration
   image: appleboy/drone-scp
