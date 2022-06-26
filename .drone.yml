@@ -26,7 +26,7 @@ steps:
     
 - name: code-analysis
   image: aosapps/drone-sonar-plugin
-  settings:
+  environment:
     sonar_host: 
       from_secret: http://212.227.12.57:9000
     sonar_token:
