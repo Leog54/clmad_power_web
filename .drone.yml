@@ -30,5 +30,5 @@ steps:
     sonar_host: 
       from_secret: http://212.227.12.57:9000
     sonar_token:
-      from_secret: sqp_08a482ecca5da5ebf782c70bd56fb3034bea7b6c
+      from_secret: squ_8c2ff936d25f9a29314ec64f5615fa0f7c1280d9
     
