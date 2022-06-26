@@ -17,9 +17,11 @@ jobs:
     steps:
 
     - name: install
+      image: composer
       run: composer install --ignore-platform-req=ext-intl
 
     - name: update
+      image: composer
       run: composer update --ignore-platform-req=ext-intl
 
     # - name: update integration
