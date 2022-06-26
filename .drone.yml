@@ -23,3 +23,12 @@ steps:
     command_timeout: 2m
     target: /var/www/html/clmad_app
     source: ./
+    
+- name: code-analysis
+  image: aosapps/drone-sonar-plugin
+  settings:
+    sonar_host: 
+      from_secret: http://212.227.12.57:9000
+    sonar_token:
+      from_secret: sqp_08a482ecca5da5ebf782c70bd56fb3034bea7b6c
+    
