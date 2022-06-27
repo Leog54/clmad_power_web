@@ -14,7 +14,7 @@ steps:
   - composer install --ignore-platform-req=ext-intl
 
 - name: test phpunit
-  image: php:8
+  image: php:7
   commands:
   - vendor/bin/phpunit --configuration config.xml
 
