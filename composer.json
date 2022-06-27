@@ -51,6 +51,7 @@
     },
     "prefer-stable": true,
     "config": {
+        "platform-check": false,
         "sort-packages": true,
         "allow-plugins": {
             "cakephp/plugin-installer": true,
