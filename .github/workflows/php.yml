@@ -20,9 +20,9 @@ jobs:
       image: composer
       run: composer install --ignore-platform-req=ext-intl
 
-    - name: update
-      image: composer
-      run: composer update --ignore-platform-req=ext-intl
+    #- name: update
+    #  image: composer
+    #  run: composer update --ignore-platform-req=ext-intl
 
     # - name: update integration
     #   image: appleboy/drone-scp
