@@ -5,7 +5,7 @@
     "type": "project",
     "license": "MIT",
     "require": {
-        "php": ">=8.1",
+        "php": ">=7.4",
         "cakephp/authentication": "2.*",
         "cakephp/authorization": "2.0",
         "cakephp/cakephp": "^4.3",
@@ -51,7 +51,6 @@
     },
     "prefer-stable": true,
     "config": {
-        "platform-check": false,
         "sort-packages": true,
         "allow-plugins": {
             "cakephp/plugin-installer": true,
