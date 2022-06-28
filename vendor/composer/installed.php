@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '2353a536c0a314b0b6fa86850b13b0697fac5c38',
+        'reference' => 'a3276791416760c8e30a1267903bd3a3ce116300',
         'name' => 'cakephp/app',
         'dev' => true,
     ),
@@ -25,7 +25,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '2353a536c0a314b0b6fa86850b13b0697fac5c38',
+            'reference' => 'a3276791416760c8e30a1267903bd3a3ce116300',
             'dev_requirement' => false,
         ),
         'cakephp/authentication' => array(
@@ -35,6 +35,15 @@
             'install_path' => __DIR__ . '/../cakephp/authentication',
             'aliases' => array(),
             'reference' => '71cfa8ab1b3e34699400528714a3575c5778e27d',
+            'dev_requirement' => false,
+        ),
+        'cakephp/authorization' => array(
+            'pretty_version' => '2.0.0',
+            'version' => '2.0.0.0',
+            'type' => 'cakephp-plugin',
+            'install_path' => __DIR__ . '/../cakephp/authorization',
+            'aliases' => array(),
+            'reference' => 'f4269fecbd77ebf56736300cc4bf486711388114',
             'dev_requirement' => false,
         ),
         'cakephp/bake' => array(
@@ -49,16 +58,16 @@
         'cakephp/cache' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '4.3.6',
+                0 => '4.3.7',
             ),
         ),
         'cakephp/cakephp' => array(
-            'pretty_version' => '4.3.6',
-            'version' => '4.3.6.0',
+            'pretty_version' => '4.3.7',
+            'version' => '4.3.7.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../cakephp/cakephp',
             'aliases' => array(),
-            'reference' => '52240bd62f56a2c8104baa376472c91253abf0f4',
+            'reference' => 'f20f6df934dac17ff15b044bf369efdc0356fe37',
             'dev_requirement' => false,
         ),
         'cakephp/cakephp-codesniffer' => array(
@@ -82,31 +91,31 @@
         'cakephp/collection' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '4.3.6',
+                0 => '4.3.7',
             ),
         ),
         'cakephp/console' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '4.3.6',
+                0 => '4.3.7',
             ),
         ),
         'cakephp/core' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '4.3.6',
+                0 => '4.3.7',
             ),
         ),
         'cakephp/database' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '4.3.6',
+                0 => '4.3.7',
             ),
         ),
         'cakephp/datasource' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '4.3.6',
+                0 => '4.3.7',
             ),
         ),
         'cakephp/debug_kit' => array(
@@ -121,37 +130,37 @@
         'cakephp/event' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '4.3.6',
+                0 => '4.3.7',
             ),
         ),
         'cakephp/filesystem' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '4.3.6',
+                0 => '4.3.7',
             ),
         ),
         'cakephp/form' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '4.3.6',
+                0 => '4.3.7',
             ),
         ),
         'cakephp/http' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '4.3.6',
+                0 => '4.3.7',
             ),
         ),
         'cakephp/i18n' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '4.3.6',
+                0 => '4.3.7',
             ),
         ),
         'cakephp/log' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '4.3.6',
+                0 => '4.3.7',
             ),
         ),
         'cakephp/migrations' => array(
@@ -166,7 +175,7 @@
         'cakephp/orm' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '4.3.6',
+                0 => '4.3.7',
             ),
         ),
         'cakephp/plugin-installer' => array(
@@ -190,13 +199,13 @@
         'cakephp/utility' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '4.3.6',
+                0 => '4.3.7',
             ),
         ),
         'cakephp/validation' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '4.3.6',
+                0 => '4.3.7',
             ),
         ),
         'composer/ca-bundle' => array(
@@ -209,12 +218,12 @@
             'dev_requirement' => false,
         ),
         'composer/composer' => array(
-            'pretty_version' => '2.2.9',
-            'version' => '2.2.9.0',
+            'pretty_version' => '2.1.12',
+            'version' => '2.1.12.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/./composer',
             'aliases' => array(),
-            'reference' => '07eccf080ad63d55d95a7c9133506db7d9029264',
+            'reference' => '6e3c2b122e0ec41a7e885fcaf19fa15e2e0819a0',
             'dev_requirement' => true,
         ),
         'composer/metadata-minifier' => array(
@@ -254,12 +263,12 @@
             'dev_requirement' => true,
         ),
         'composer/xdebug-handler' => array(
-            'pretty_version' => '3.0.3',
-            'version' => '3.0.3.0',
+            'pretty_version' => '2.0.5',
+            'version' => '2.0.5.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/./xdebug-handler',
             'aliases' => array(),
-            'reference' => 'ced299686f41dce890debac69273b47ffe98a40c',
+            'reference' => '9e36aeed4616366d2b690bdce11f71e9178c579a',
             'dev_requirement' => true,
         ),
         'dealerdirect/phpcodesniffer-composer-installer' => array(
@@ -584,27 +593,27 @@
             'dev_requirement' => false,
         ),
         'psr/log' => array(
-            'pretty_version' => '1.1.4',
-            'version' => '1.1.4.0',
+            'pretty_version' => '2.0.0',
+            'version' => '2.0.0.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../psr/log',
             'aliases' => array(),
-            'reference' => 'd49695b909c3b7628b6289db5479a1c204601f11',
+            'reference' => 'ef29f6d262798707a9edd554e2b82517ef3a9376',
             'dev_requirement' => false,
         ),
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0',
+                0 => '1.0|2.0|3.0',
             ),
         ),
         'psr/simple-cache' => array(
-            'pretty_version' => '1.0.1',
-            'version' => '1.0.1.0',
+            'pretty_version' => '2.0.0',
+            'version' => '2.0.0.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../psr/simple-cache',
             'aliases' => array(),
-            'reference' => '408d5eafb83c57f6365a3ca330ff23aa4a5fa39b',
+            'reference' => '8707bf3cea6f710bf6ef05491234e3ab06f6432a',
             'dev_requirement' => false,
         ),
         'react/promise' => array(
@@ -806,48 +815,48 @@
             'dev_requirement' => true,
         ),
         'symfony/config' => array(
-            'pretty_version' => 'v5.4.3',
-            'version' => '5.4.3.0',
+            'pretty_version' => 'v6.0.3',
+            'version' => '6.0.3.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/config',
             'aliases' => array(),
-            'reference' => 'd65e1bd990c740e31feb07d2b0927b8d4df9956f',
+            'reference' => 'c14f32ae4cd2a3c29d8825c5093463ac08ade7d8',
             'dev_requirement' => false,
         ),
         'symfony/console' => array(
-            'pretty_version' => 'v5.4.5',
-            'version' => '5.4.5.0',
+            'pretty_version' => 'v6.0.5',
+            'version' => '6.0.5.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/console',
             'aliases' => array(),
-            'reference' => 'd8111acc99876953f52fe16d4c50eb60940d49ad',
+            'reference' => '3bebf4108b9e07492a2a4057d207aa5a77d146b1',
             'dev_requirement' => false,
         ),
         'symfony/deprecation-contracts' => array(
-            'pretty_version' => 'v2.5.0',
-            'version' => '2.5.0.0',
+            'pretty_version' => 'v3.0.0',
+            'version' => '3.0.0.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/deprecation-contracts',
             'aliases' => array(),
-            'reference' => '6f981ee24cf69ee7ce9736146d1c57c2780598a8',
+            'reference' => 'c726b64c1ccfe2896cb7df2e1331c357ad1c8ced',
             'dev_requirement' => false,
         ),
         'symfony/filesystem' => array(
-            'pretty_version' => 'v5.4.6',
-            'version' => '5.4.6.0',
+            'pretty_version' => 'v6.0.6',
+            'version' => '6.0.6.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/filesystem',
             'aliases' => array(),
-            'reference' => 'd53a45039974952af7f7ebc461ccdd4295e29440',
+            'reference' => '52b888523545b0b4049ab9ce48766802484d7046',
             'dev_requirement' => false,
         ),
         'symfony/finder' => array(
-            'pretty_version' => 'v5.4.3',
-            'version' => '5.4.3.0',
+            'pretty_version' => 'v6.0.3',
+            'version' => '6.0.3.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/finder',
             'aliases' => array(),
-            'reference' => '231313534dded84c7ecaa79d14bc5da4ccb69b7d',
+            'reference' => '8661b74dbabc23223f38c9b99d3f8ade71170430',
             'dev_requirement' => true,
         ),
         'symfony/polyfill-ctype' => array(
@@ -886,24 +895,6 @@
             'reference' => '0abb51d2f102e00a4eefcf46ba7fec406d245825',
             'dev_requirement' => false,
         ),
-        'symfony/polyfill-php73' => array(
-            'pretty_version' => 'v1.25.0',
-            'version' => '1.25.0.0',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../symfony/polyfill-php73',
-            'aliases' => array(),
-            'reference' => 'cc5db0e22b3cb4111010e48785a97f670b350ca5',
-            'dev_requirement' => false,
-        ),
-        'symfony/polyfill-php80' => array(
-            'pretty_version' => 'v1.25.0',
-            'version' => '1.25.0.0',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../symfony/polyfill-php80',
-            'aliases' => array(),
-            'reference' => '4407588e0d3f1f52efb65fbe92babe41f37fe50c',
-            'dev_requirement' => false,
-        ),
         'symfony/polyfill-php81' => array(
             'pretty_version' => 'v1.25.0',
             'version' => '1.25.0.0',
@@ -914,30 +905,30 @@
             'dev_requirement' => false,
         ),
         'symfony/process' => array(
-            'pretty_version' => 'v5.4.5',
-            'version' => '5.4.5.0',
+            'pretty_version' => 'v6.0.5',
+            'version' => '6.0.5.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/process',
             'aliases' => array(),
-            'reference' => '95440409896f90a5f85db07a32b517ecec17fa4c',
+            'reference' => '1ccceccc6497e96f4f646218f04b97ae7d9fa7a1',
             'dev_requirement' => true,
         ),
         'symfony/service-contracts' => array(
-            'pretty_version' => 'v1.1.2',
-            'version' => '1.1.2.0',
+            'pretty_version' => 'v3.0.0',
+            'version' => '3.0.0.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/service-contracts',
             'aliases' => array(),
-            'reference' => '191afdcb5804db960d26d8566b7e9a2843cab3a0',
+            'reference' => '36715ebf9fb9db73db0cb24263c79077c6fe8603',
             'dev_requirement' => false,
         ),
         'symfony/string' => array(
-            'pretty_version' => 'v5.4.3',
-            'version' => '5.4.3.0',
+            'pretty_version' => 'v6.0.3',
+            'version' => '6.0.3.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/string',
             'aliases' => array(),
-            'reference' => '92043b7d8383e48104e411bc9434b260dbeb5a10',
+            'reference' => '522144f0c4c004c80d56fa47e40e17028e2eefc2',
             'dev_requirement' => false,
         ),
         'theseer/tokenizer' => array(
