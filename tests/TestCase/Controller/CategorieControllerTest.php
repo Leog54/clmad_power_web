@@ -4,6 +4,7 @@ declare(strict_types=1);
 namespace App\Test\TestCase\Controller;
 
 use App\Controller\CategorieController;
+use Cake\Database\Query;
 use Cake\TestSuite\IntegrationTestTrait;
 use Cake\TestSuite\TestCase;
 
@@ -24,6 +25,19 @@ class CategorieControllerTest extends TestCase
     protected $fixtures = [
         'app.Categorie',
     ];
+
+    public function findCategorie(): void 
+    {
+        $query = $this->Categorie->find('id_categ')->all();
+        $this->assertInstanceOf('Cake\ORM\Query', $query);
+        $result = $query->enableHydration(false)->toArray();
+        $expected = [
+            ['id_categ' => 1, 'nom_categ' => 'Lorem ipsum dolor sit amet']
+
+        ];
+
+        $this->assertEquals($expected, $result);
+    }
 
     /**
      * Test index method

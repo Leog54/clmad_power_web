@@ -25,7 +25,6 @@ class CategorieFixture extends TestFixture
     {
         $this->records = [
             [
-                'id_categ' => 1,
                 'nom_categ' => 'Lorem ipsum dolor sit amet',
             ],
         ];

@@ -66,11 +66,11 @@ return [
         'test' => [
             'host' => 'localhost',
             //'port' => 'non_standard_port_number',
-            'username' => 'my_app',
-            'password' => 'secret',
-            'database' => 'test_myapp',
+            'username' => 'root',
+            'password' => '',
+            'database' => 'test_clmad_bdd',
             //'schema' => 'myapp',
-            'url' => env('DATABASE_TEST_URL', 'sqlite://127.0.0.1/tests.sqlite'),
+            'url' => env('DATABASE_URL', null),
         ],
     ],
 

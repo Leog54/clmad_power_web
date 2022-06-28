@@ -25,13 +25,13 @@ class PublicationFixture extends TestFixture
     {
         $this->records = [
             [
-                'id_publi' => 1,
-                'contenu_publi' => 'Lorem ipsum dolor sit amet',
+                'contenu_publi' => 'Test contenu publication',
                 'date_publi' => '2022-02-28 19:37:41',
                 'link_img_publi' => 'Lorem ipsum dolor sit amet',
                 'link_pj_publi' => 'Lorem ipsum dolor sit amet',
                 'id_categ' => 1,
                 'id_user' => 1,
+                'visi' => 1,
             ],
         ];
         parent::init();

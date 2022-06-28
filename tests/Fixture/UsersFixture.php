@@ -15,21 +15,21 @@ class UsersFixture extends TestFixture
      *
      * @return void
      */
+
     public function init(): void
     {
         $this->records = [
             [
-                'id_user' => 1,
                 'nom_user' => 'Lorem ipsum dolor sit amet',
                 'prenom_user' => 'Lorem ipsum dolor sit amet',
-                'sexe_user' => 'L',
+                'sexe_user' => 'M',
                 'num_rue_user' => 'Lo',
                 'rue_user' => 'Lorem ipsum dolor sit amet',
                 'cp_user' => 'Lor',
                 'ville_user' => 'Lorem ipsum dolor sit amet',
                 'num_tel_user' => 'Lorem ip',
-                'email' => 'Lorem ipsum dolor sit amet',
-                'password' => 'Lorem ipsum dolor sit amet',
+                'email' => 'test@mail.com',
+                'password' => '123',
                 'date_naissance_user' => '2022-03-14 13:18:16',
                 'situation_familial_user' => 'L',
                 'cgu_consent_user' => 1,

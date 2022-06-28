@@ -29,3 +29,452 @@ Stack Trace:
 
 
 
+2022-06-28 13:00:14 warning: Warning (2): Undefined property: App\Test\TestCase\Controller\PublicationControllerTest::$Authorization in [C:\xampp\htdocs\clmad_power_web\tests\TestCase\Controller\PublicationControllerTest.php, line 32]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 185
+App\Test\TestCase\Controller\PublicationControllerTest::testIndex() - ROOT\tests\TestCase\Controller\PublicationControllerTest.php, line 32
+PHPUnit\Framework\TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1545
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1151
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 726
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 903
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 677
+PHPUnit\TextUI\TestRunner::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 673
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 143
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 96
+eval - ROOT\vendor\bin\phpunit(21) : eval()'d code, line 97
+[main] - ROOT\vendor\bin\phpunit, line 21
+
+2022-06-28 13:00:16 warning: Warning (2): Undefined property: App\Test\TestCase\Controller\PublicationControllerTest::$Authorization in [C:\xampp\htdocs\clmad_power_web\tests\TestCase\Controller\PublicationControllerTest.php, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 185
+App\Test\TestCase\Controller\PublicationControllerTest::testView() - ROOT\tests\TestCase\Controller\PublicationControllerTest.php, line 40
+PHPUnit\Framework\TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1545
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1151
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 726
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 903
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 677
+PHPUnit\TextUI\TestRunner::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 673
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 143
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 96
+eval - ROOT\vendor\bin\phpunit(21) : eval()'d code, line 97
+[main] - ROOT\vendor\bin\phpunit, line 21
+
+2022-06-28 14:09:50 warning: Warning (2): Undefined property: App\Test\TestCase\Controller\PublicationControllerTest::$Authorization in [C:\xampp\htdocs\clmad_power_web\tests\TestCase\Controller\PublicationControllerTest.php, line 32]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 185
+App\Test\TestCase\Controller\PublicationControllerTest::testIndex() - ROOT\tests\TestCase\Controller\PublicationControllerTest.php, line 32
+PHPUnit\Framework\TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1545
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1151
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 726
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 903
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 677
+PHPUnit\TextUI\TestRunner::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 673
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 143
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 96
+eval - ROOT\vendor\bin\phpunit(21) : eval()'d code, line 97
+[main] - ROOT\vendor\bin\phpunit, line 21
+
+2022-06-28 14:18:36 warning: Warning (2): Undefined property: App\Test\TestCase\Controller\PublicationControllerTest::$Authorization in [C:\xampp\htdocs\clmad_power_web\tests\TestCase\Controller\PublicationControllerTest.php, line 38]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 185
+App\Test\TestCase\Controller\PublicationControllerTest::testIndex() - ROOT\tests\TestCase\Controller\PublicationControllerTest.php, line 38
+PHPUnit\Framework\TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1545
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1151
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 726
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 903
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 677
+PHPUnit\TextUI\TestRunner::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 673
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 143
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 96
+eval - ROOT\vendor\bin\phpunit(21) : eval()'d code, line 97
+[main] - ROOT\vendor\bin\phpunit, line 21
+
+2022-06-28 18:12:46 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or incorrect CSRF cookie type. in C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php on line 390
+Stack Trace:
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:170
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\TestSuite\MiddlewareDispatcher.php:142
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\TestSuite\IntegrationTestTrait.php:477
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\TestSuite\IntegrationTestTrait.php:379
+- C:\xampp\htdocs\clmad_power_web\tests\TestCase\Controller\PublicationControllerTest.php:57
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Framework\TestCase.php:1545
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Framework\TestCase.php:1151
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Framework\TestResult.php:726
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Framework\TestCase.php:903
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Framework\TestSuite.php:677
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\TextUI\TestRunner.php:673
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\TextUI\Command.php:143
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\TextUI\Command.php:96
+- C:\xampp\htdocs\clmad_power_web\vendor\bin\phpunit(21) : eval()'d code:97
+- C:\xampp\htdocs\clmad_power_web\vendor\bin\phpunit:21
+
+Request URL: /publication
+
+
+2022-06-28 18:19:41 error: [Cake\Http\Exception\MissingControllerException] Controller class Publications could not be found. in C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Publications',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:164
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\TestSuite\MiddlewareDispatcher.php:142
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\TestSuite\IntegrationTestTrait.php:477
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\TestSuite\IntegrationTestTrait.php:363
+- C:\xampp\htdocs\clmad_power_web\tests\TestCase\Controller\PublicationControllerTest.php:33
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Framework\TestCase.php:1545
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Framework\TestCase.php:1151
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Framework\TestResult.php:726
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Framework\TestCase.php:903
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Framework\TestSuite.php:677
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\TextUI\TestRunner.php:673
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\TextUI\Command.php:143
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\TextUI\Command.php:96
+- C:\xampp\htdocs\clmad_power_web\vendor\bin\phpunit(21) : eval()'d code:97
+- C:\xampp\htdocs\clmad_power_web\vendor\bin\phpunit:21
+
+Request URL: /publications
+
+
+2022-06-28 18:19:44 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or incorrect CSRF cookie type. in C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php on line 390
+Stack Trace:
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:170
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\TestSuite\MiddlewareDispatcher.php:142
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\TestSuite\IntegrationTestTrait.php:477
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\TestSuite\IntegrationTestTrait.php:379
+- C:\xampp\htdocs\clmad_power_web\tests\TestCase\Controller\PublicationControllerTest.php:57
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Framework\TestCase.php:1545
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Framework\TestCase.php:1151
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Framework\TestResult.php:726
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Framework\TestCase.php:903
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Framework\TestSuite.php:677
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\TextUI\TestRunner.php:673
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\TextUI\Command.php:143
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\TextUI\Command.php:96
+- C:\xampp\htdocs\clmad_power_web\vendor\bin\phpunit(21) : eval()'d code:97
+- C:\xampp\htdocs\clmad_power_web\vendor\bin\phpunit:21
+
+Request URL: /publication
+
+
+2022-06-28 19:04:21 error: [PHPUnit\TextUI\RuntimeException] Unclosed '{' on line 17 in C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\TextUI\Command.php on line 98
+Stack Trace:
+- C:\xampp\htdocs\clmad_power_web\vendor\bin\phpunit(21) : eval()'d code:97
+- C:\xampp\htdocs\clmad_power_web\vendor\bin\phpunit:21
+
+Caused by: [ParseError] Unclosed '{' on line 17 in C:\xampp\htdocs\clmad_power_web\tests\TestCase\Controller\PublicationControllerTest.php on line 103
+Stack Trace:
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Util\FileLoader.php:49
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Runner\StandardTestSuiteLoader.php:43
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Runner\BaseTestRunner.php:146
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Runner\BaseTestRunner.php:112
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\TextUI\Command.php:120
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\TextUI\Command.php:96
+- C:\xampp\htdocs\clmad_power_web\vendor\bin\phpunit(21) : eval()'d code:97
+- C:\xampp\htdocs\clmad_power_web\vendor\bin\phpunit:21
+
+
+
+2022-06-28 19:05:07 warning: Warning (2): Undefined property: App\Test\TestCase\Controller\PublicationControllerTest::$Articles in [C:\xampp\htdocs\clmad_power_web\tests\TestCase\Controller\PublicationControllerTest.php, line 33]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 185
+App\Test\TestCase\Controller\PublicationControllerTest::test() - ROOT\tests\TestCase\Controller\PublicationControllerTest.php, line 33
+PHPUnit\Framework\TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1545
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1151
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 726
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 903
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 677
+PHPUnit\TextUI\TestRunner::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 673
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 143
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 96
+eval - ROOT\vendor\bin\phpunit(21) : eval()'d code, line 97
+[main] - ROOT\vendor\bin\phpunit, line 21
+
+2022-06-28 19:05:50 warning: Warning (2): Undefined property: App\Test\TestCase\Controller\PublicationControllerTest::$Publication in [C:\xampp\htdocs\clmad_power_web\tests\TestCase\Controller\PublicationControllerTest.php, line 33]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 185
+App\Test\TestCase\Controller\PublicationControllerTest::test() - ROOT\tests\TestCase\Controller\PublicationControllerTest.php, line 33
+PHPUnit\Framework\TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1545
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1151
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 726
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 903
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 677
+PHPUnit\TextUI\TestRunner::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 673
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 143
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 96
+eval - ROOT\vendor\bin\phpunit(21) : eval()'d code, line 97
+[main] - ROOT\vendor\bin\phpunit, line 21
+
+2022-06-28 19:12:33 warning: Warning (2): Undefined property: App\Test\TestCase\Controller\PublicationControllerTest::$Publication in [C:\xampp\htdocs\clmad_power_web\tests\TestCase\Controller\PublicationControllerTest.php, line 33]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 185
+App\Test\TestCase\Controller\PublicationControllerTest::test() - ROOT\tests\TestCase\Controller\PublicationControllerTest.php, line 33
+PHPUnit\Framework\TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1545
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1151
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 726
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 903
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 677
+PHPUnit\TextUI\TestRunner::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 673
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 143
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 96
+eval - ROOT\vendor\bin\phpunit(21) : eval()'d code, line 97
+[main] - ROOT\vendor\bin\phpunit, line 21
+
+2022-06-28 19:23:38 warning: Warning (2): Undefined property: App\Test\TestCase\Controller\PublicationControllerTest::$Publication in [C:\xampp\htdocs\clmad_power_web\tests\TestCase\Controller\PublicationControllerTest.php, line 33]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 185
+App\Test\TestCase\Controller\PublicationControllerTest::test() - ROOT\tests\TestCase\Controller\PublicationControllerTest.php, line 33
+PHPUnit\Framework\TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1545
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1151
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 726
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 903
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 677
+PHPUnit\TextUI\TestRunner::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 673
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 143
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 96
+eval - ROOT\vendor\bin\phpunit(21) : eval()'d code, line 97
+[main] - ROOT\vendor\bin\phpunit, line 21
+
+2022-06-28 19:24:24 warning: Warning (2): Undefined property: App\Test\TestCase\Controller\PublicationControllerTest::$Publication in [C:\xampp\htdocs\clmad_power_web\tests\TestCase\Controller\PublicationControllerTest.php, line 33]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 185
+App\Test\TestCase\Controller\PublicationControllerTest::test() - ROOT\tests\TestCase\Controller\PublicationControllerTest.php, line 33
+PHPUnit\Framework\TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1545
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1151
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 726
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 903
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 677
+PHPUnit\TextUI\TestRunner::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 673
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 143
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 96
+eval - ROOT\vendor\bin\phpunit(21) : eval()'d code, line 97
+[main] - ROOT\vendor\bin\phpunit, line 21
+
+2022-06-28 19:33:59 error: [PHPUnit\TextUI\RuntimeException] syntax error, unexpected token ";", expecting "]" in C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\TextUI\Command.php on line 98
+Stack Trace:
+- C:\xampp\htdocs\clmad_power_web\vendor\bin\phpunit(21) : eval()'d code:97
+- C:\xampp\htdocs\clmad_power_web\vendor\bin\phpunit:21
+
+Caused by: [ParseError] syntax error, unexpected token ";", expecting "]" in C:\xampp\htdocs\clmad_power_web\tests\TestCase\Controller\CategorieControllerTest.php on line 35
+Stack Trace:
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Util\FileLoader.php:49
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Runner\StandardTestSuiteLoader.php:43
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Runner\BaseTestRunner.php:146
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Runner\BaseTestRunner.php:112
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\TextUI\Command.php:120
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\TextUI\Command.php:96
+- C:\xampp\htdocs\clmad_power_web\vendor\bin\phpunit(21) : eval()'d code:97
+- C:\xampp\htdocs\clmad_power_web\vendor\bin\phpunit:21
+
+
+
+2022-06-28 19:35:28 warning: Warning (2): Undefined property: App\Test\TestCase\Controller\PublicationControllerTest::$Publication in [C:\xampp\htdocs\clmad_power_web\tests\TestCase\Controller\PublicationControllerTest.php, line 33]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 185
+App\Test\TestCase\Controller\PublicationControllerTest::test() - ROOT\tests\TestCase\Controller\PublicationControllerTest.php, line 33
+PHPUnit\Framework\TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1545
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1151
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 726
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 903
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 677
+PHPUnit\TextUI\TestRunner::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 673
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 143
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 96
+eval - ROOT\vendor\bin\phpunit(21) : eval()'d code, line 97
+[main] - ROOT\vendor\bin\phpunit, line 21
+
+2022-06-28 19:35:54 warning: Warning (2): Undefined property: App\Test\TestCase\Controller\PublicationControllerTest::$Publication in [C:\xampp\htdocs\clmad_power_web\tests\TestCase\Controller\PublicationControllerTest.php, line 33]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 185
+App\Test\TestCase\Controller\PublicationControllerTest::test() - ROOT\tests\TestCase\Controller\PublicationControllerTest.php, line 33
+PHPUnit\Framework\TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1545
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1151
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 726
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 903
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 677
+PHPUnit\TextUI\TestRunner::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 673
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 143
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 96
+eval - ROOT\vendor\bin\phpunit(21) : eval()'d code, line 97
+[main] - ROOT\vendor\bin\phpunit, line 21
+
+2022-06-28 20:02:12 error: [PHPUnit\TextUI\RuntimeException] syntax error, unexpected token "{", expecting "function" or "const" in C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\TextUI\Command.php on line 98
+Stack Trace:
+- C:\xampp\htdocs\clmad_power_web\vendor\bin\phpunit(21) : eval()'d code:97
+- C:\xampp\htdocs\clmad_power_web\vendor\bin\phpunit:21
+
+Caused by: [ParseError] syntax error, unexpected token "{", expecting "function" or "const" in C:\xampp\htdocs\clmad_power_web\tests\TestCase\Controller\PublicationControllerTest.php on line 37
+Stack Trace:
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Util\FileLoader.php:49
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Runner\StandardTestSuiteLoader.php:43
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Runner\BaseTestRunner.php:146
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Runner\BaseTestRunner.php:112
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\TextUI\Command.php:120
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\TextUI\Command.php:96
+- C:\xampp\htdocs\clmad_power_web\vendor\bin\phpunit(21) : eval()'d code:97
+- C:\xampp\htdocs\clmad_power_web\vendor\bin\phpunit:21
+
+
+
+2022-06-28 20:10:45 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or incorrect CSRF cookie type. in C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php on line 390
+Stack Trace:
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:170
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\TestSuite\MiddlewareDispatcher.php:142
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\TestSuite\IntegrationTestTrait.php:477
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\TestSuite\IntegrationTestTrait.php:379
+- C:\xampp\htdocs\clmad_power_web\tests\TestCase\Controller\PublicationControllerTest.php:70
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Framework\TestCase.php:1545
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Framework\TestCase.php:1151
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Framework\TestResult.php:726
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Framework\TestCase.php:903
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Framework\TestSuite.php:677
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\TextUI\TestRunner.php:673
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\TextUI\Command.php:143
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\TextUI\Command.php:96
+- C:\xampp\htdocs\clmad_power_web\vendor\bin\phpunit(21) : eval()'d code:97
+- C:\xampp\htdocs\clmad_power_web\vendor\bin\phpunit:21
+
+Request URL: /publication/add
+
+
+2022-06-28 20:11:23 error: [Error] Call to a member function getClientFilename() on string in C:\xampp\htdocs\clmad_power_web\src\Controller\PublicationController.php on line 79
+Stack Trace:
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Controller\Controller.php:539
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:140
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:115
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\BaseApplication.php:317
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\TestSuite\MiddlewareDispatcher.php:142
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\TestSuite\IntegrationTestTrait.php:477
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\TestSuite\IntegrationTestTrait.php:379
+- C:\xampp\htdocs\clmad_power_web\tests\TestCase\Controller\PublicationControllerTest.php:72
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Framework\TestCase.php:1545
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Framework\TestCase.php:1151
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Framework\TestResult.php:726
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Framework\TestCase.php:903
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Framework\TestSuite.php:677
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\TextUI\TestRunner.php:673
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\TextUI\Command.php:143
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\TextUI\Command.php:96
+- C:\xampp\htdocs\clmad_power_web\vendor\bin\phpunit(21) : eval()'d code:97
+- C:\xampp\htdocs\clmad_power_web\vendor\bin\phpunit:21
+
+Request URL: /publication/add
+
+
+2022-06-28 21:06:10 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or incorrect CSRF cookie type. in C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php on line 390
+Stack Trace:
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:170
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\TestSuite\MiddlewareDispatcher.php:142
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\TestSuite\IntegrationTestTrait.php:477
+- C:\xampp\htdocs\clmad_power_web\vendor\cakephp\cakephp\src\TestSuite\IntegrationTestTrait.php:379
+- C:\xampp\htdocs\clmad_power_web\tests\TestCase\Controller\UsersControllerTest.php:50
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Framework\TestCase.php:1545
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Framework\TestCase.php:1151
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Framework\TestResult.php:726
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Framework\TestCase.php:903
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\Framework\TestSuite.php:677
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\TextUI\TestRunner.php:673
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\TextUI\Command.php:143
+- C:\xampp\htdocs\clmad_power_web\vendor\phpunit\phpunit\src\TextUI\Command.php:96
+- C:\xampp\htdocs\clmad_power_web\vendor\bin\phpunit(21) : eval()'d code:97
+- C:\xampp\htdocs\clmad_power_web\vendor\bin\phpunit:21
+
+Request URL: /users
+
+

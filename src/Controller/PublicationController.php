@@ -18,9 +18,9 @@ class PublicationController extends AppController
      *
      * @return \Cake\Http\Response|null|void Renders view
      */
+
     public function index()
     {
-        $this->Authorization->skipAuthorization();
         $publications = $this->paginate($this->Publication);
         $connectedUser = $this->Authentication->getIdentity();
         $AuthorUserPubli = [];
@@ -51,7 +51,6 @@ class PublicationController extends AppController
      */
     public function view($id = null)
     {
-        $this->Authorization->skipAuthorization();
         $publication = $this->Publication->get($id, [
             'contain' => [],
         ]);
@@ -69,7 +68,6 @@ class PublicationController extends AppController
     public function add()
     {
         $publication = $this->Publication->newEmptyEntity();
-        $this->Authorization->authorize($publication);
         $user = $this->Authentication->getIdentity();
         $userId = $user->id_user;
 
@@ -122,7 +120,6 @@ class PublicationController extends AppController
         $publication = $this->Publication->get($id, [
             'contain' => [],
         ]);
-        $this->Authorization->authorize($publication);
         if ($this->request->is(['patch', 'post', 'put'])) {
             $publication = $this->Publication->patchEntity($publication, $this->request->getData(), [
                 'accessibleFields' => ['id_user' => false]

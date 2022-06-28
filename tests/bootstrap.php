@@ -18,6 +18,9 @@ declare(strict_types=1);
 use Cake\Core\Configure;
 use Cake\Datasource\ConnectionManager;
 use Migrations\TestSuite\Migrator;
+use Cake\TestSuite\Fixture\SchemaLoader;
+
+//(new SchemaLoader())->loadSqlFiles('/clmad_bdd.sql', 'test');
 
 /**
  * Test runner bootstrap.
